@@ -1,0 +1,842 @@
+.hero-section,
+.hero-section * {
+    box-sizing: border-box;
+}
+
+.hero-section {
+    padding: 48px 24px 48px 70px;
+    width: 1440px;
+    height: 757px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 121px;
+    top: 171px;
+}
+
+.hero-text2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.savings-reimagined-redefined {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.start-your-journey-towards-financial-freedom-with-target-savings-brought-to-you-by-our-financial-solution {
+    color: var(--black-color-11, #000000);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 593px;
+}
+
+.button {
+    background: var(--primary-color-5, #355dff);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-1-bold, 700 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon-solid-arrow-narrow-right {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.hero-mockup {
+    width: 685.48px;
+    height: 551.38px;
+    position: absolute;
+    left: 690.1px;
+    top: 47px;
+    transform-origin: 0 0;
+    transform: rotate(9.932deg) scale(1, 1);
+}
+
+.our-services,
+.our-services * {
+    box-sizing: border-box;
+}
+
+.our-services {
+    background: var(--white-color, #ffffff);
+    padding: 24px 120px 24px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-services2 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.our-services3 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 1200px;
+    position: relative;
+    overflow-x: auto;
+}
+
+.savings {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.target-savings {
+    flex-shrink: 0;
+    width: 482px;
+    height: 363px;
+    position: relative;
+}
+
+.savings2 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.turn-your-aspirations-into-reality-with-our-target-savings-feature-take-control-of-your-financial-journey-and-watch-your-dreams-come-true {
+    color: var(--black-color-11, #000000);
+    text-align: center;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 323px;
+}
+
+.agency-banking {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.no-pic-2 {
+    flex-shrink: 0;
+    width: 482px;
+    height: 363px;
+    position: relative;
+}
+
+.agency-banking2 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.experience-seamless-financial-services-with-qpay-s-agency-banking-our-local-agents-bring-banking-to-your-doorstep-ensuring-access-for-all-simple-convenient-and-inclusive {
+    color: #000000;
+    text-align: center;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 323px;
+}
+
+.business-2-business {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.b-2-b {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.business-to-business {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.discover-qpay-s-b-2-b-solutions-for-seamless-transactions-enhanced-financial-management-and-business-growth-elevate-your-success-with-qpay-today {
+    color: #000000;
+    text-align: center;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 323px;
+}
+
+.skill-learning {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.skill-learning2 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.our-financial-platform-enriches-society-by-extending-skill-learning-opportunities-to-individuals-fostering-personal-and-professional-growth-within-the-community {
+    color: #000000;
+    text-align: center;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 323px;
+}
+
+.about-us,
+.about-us * {
+    box-sizing: border-box;
+}
+
+.about-us {
+    background: #ffffff;
+    padding: 24px 120px 24px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us2 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 1190px;
+    position: relative;
+}
+
+.about-us3 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about-us-context {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 1200px;
+    position: relative;
+}
+
+.company-picture {
+    flex-shrink: 0;
+    width: 586px;
+    height: 441px;
+    position: relative;
+}
+
+.about-us-context2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-end;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.at-qpay-we-re-not-just-about-transactions-we-re-about-realizing-dreams-and-securing-futures-that-s-why-we-re-thrilled-to-introduce-our-innovative-target-savings-feature-designed-to-empower-you-with-a-personalized-roadmap-towards-your-financial-aspirations-with-qpay-s-target-savings-you-have-the-power-to-define-your-goals-whether-it-s-a-dream-vacation-buying-your-first-home-or-launching-your-own-business-simply-create-your-savings-targets-and-let-us-guide-you-every-step-of-the-way-we-understand-that-everyone-s-journey-is-unique-that-s-why-our-platform-lets-you-create-customized-savings-plans-that-align-with-your-goals-and-timeline-whether-you-re-saving-up-for-short-term-indulgences-or-long-term-ambitions-qpay-adapts-to-your-needs-visualize-your-progress-with-ease-through-our-intuitive-tracking-tools-watch-as-your-savings-grow-and-witness-your-milestones-getting-closer-qpay-s-real-time-updates-keep-you-motivated-and-in-control-of-your-financial-destiny {
+    color: #000000;
+    text-align: justified;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 555px;
+}
+
+.frame-3199 {
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button {
+    color: var(--primary-color-5, #355dff);
+    text-align: left;
+    font: var(--p-1-bold, 700 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon-solid-arrow-narrow-right {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.meat-the-team,
+.meat-the-team * {
+    box-sizing: border-box;
+}
+
+.meat-the-team {
+    background: var(--white-color, #ffffff);
+    padding: 48px 120px 48px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.meet-the-team {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.meet-the-team2 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: center;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meat-the-team2 {
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    width: 1200px;
+    position: relative;
+}
+
+.team-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.picture {
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-name {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.faniyi-damilare {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-4-bold, 700 25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.line-53 {
+    border-style: solid;
+    border-color: var(--black-color-5, #2b2b2b);
+    border-width: 1px 0 0 0;
+    flex-shrink: 0;
+    width: 180px;
+    height: 0px;
+    position: relative;
+}
+
+.it-specialist {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-bold, 700 16px "Poppins", sans-serif);
+    position: relative;
+}
+
+.team-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.idris-a-hassan {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-4-bold, 700 25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.team-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.fowotade-simeon {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-4-bold, 700 25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.team-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.okafor-sotochukwu {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-4-bold, 700 25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.team-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.obinna-sly {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-4-bold, 700 25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.team-6 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.our-partners,
+.our-partners * {
+    box-sizing: border-box;
+}
+
+.our-partners {
+    background: var(--white-color, #ffffff);
+    padding: 48px 220px 48px 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-patners {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.our-partners2 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: center;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.vephla {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.vephla-1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+._2960056556176 {
+    position: absolute;
+    left: 417.22px;
+    top: 85.25px;
+    overflow: visible;
+}
+
+.company-picture {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.contact-us,
+.contact-us * {
+    box-sizing: border-box;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    position: relative;
+}
+
+.contact-us2 {
+    background: var(--primary-color-4, #5d7dff);
+    padding: 48px 40px 48px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-us3 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.contact-us4 {
+    color: var(--white-color, #ffffff);
+    text-align: center;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-team-would-love-to-hear-from-you {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+}
+
+.contact-us5 {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    width: 614px;
+    position: relative;
+}
+
+.input-field-states {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.first-name {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-3192 {
+    background: var(--white-color, #ffffff);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 44px;
+    position: relative;
+}
+
+.place-holder {
+    color: var(--grey-color-3, #c8c8c8);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input-field-states2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 614px;
+    height: 167px;
+    position: relative;
+}
+
+.input-field2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 96px;
+    position: relative;
+}
+
+.frame-31922 {
+    background: var(--white-color, #ffffff);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.place-holder2 {
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.place-holder-2-span {
+    color: var(--white-color, #ffffff);
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+}
+
+.place-holder-2-span2 {
+    color: var(--grey-color-3, #c8c8c8);
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+}
+
+.submit {
+    background: var(--primary-color-5, #355dff);
+    border-radius: 12px;
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 2px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 614px;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-1-bold, 700 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.basemap-image {
+    flex-shrink: 0;
+    width: 665px;
+    height: 593px;
+    position: relative;
+}

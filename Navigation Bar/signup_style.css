@@ -1,0 +1,330 @@
+.create-account-page-i,
+.create-account-page-i * {
+    box-sizing: border-box;
+}
+
+.create-account-page-i {
+    background: var(--white-color, #ffffff);
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+
+.q-pay-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 121px;
+    top: 60px;
+}
+
+.logo {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.vector3 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.create-account {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: absolute;
+    left: 730px;
+    top: 167px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sign-up-rafiki {
+    position: absolute;
+    inset: 0;
+}
+
+.background-complete {
+    position: absolute;
+    left: 121px;
+    top: 228px;
+    overflow: visible;
+}
+
+.background-simple {
+    opacity: 0;
+    position: absolute;
+    left: 220.28px;
+    top: 266.56px;
+    overflow: visible;
+}
+
+.shadow {
+    position: absolute;
+    left: 189.34px;
+    top: 735.18px;
+    overflow: visible;
+}
+
+.plant {
+    position: absolute;
+    left: 227.76px;
+    top: 610.34px;
+    overflow: visible;
+}
+
+.speech-bubble {
+    position: absolute;
+    left: 560.76px;
+    top: 292.22px;
+    overflow: visible;
+}
+
+.character {
+    position: absolute;
+    left: 476.07px;
+    top: 362.21px;
+    overflow: visible;
+}
+
+.already-a-user-log-in {
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 887px;
+    top: 892px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.already-a-user-log-in-span {
+    color: var(--black-color-8, #000000);
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+}
+
+.already-a-user-log-in-span2 {
+    color: var(--primary-color-6, #0c3cff);
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+}
+
+.slider-pagination {
+    width: 83px;
+    height: 12px;
+    position: absolute;
+    left: 936px;
+    top: 940px;
+}
+
+.pagination-1 {
+    background: var(--primary-color-6, #0c3cff);
+    border-radius: 12px;
+    width: 37px;
+    height: 12px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.pagination-2 {
+    background: var(--primary-color-3, #859dff);
+    border-radius: 12px;
+    width: 15px;
+    height: 12px;
+    position: absolute;
+    left: 45px;
+    top: 0px;
+}
+
+.pagination-3 {
+    background: var(--primary-color-3, #859dff);
+    border-radius: 12px;
+    width: 15px;
+    height: 12px;
+    position: absolute;
+    left: 68px;
+    top: 0px;
+}
+
+.input-field-frame {
+    width: 494px;
+    height: 645px;
+    position: absolute;
+    left: 730px;
+    top: 223px;
+}
+
+.frame-background {
+    background: var(--primary-color-3, #859dff);
+    border-radius: 12px;
+    width: 489px;
+    height: 640px;
+    position: absolute;
+    left: 5px;
+    top: 0px;
+}
+
+.input-frame {
+    background: var(--grey-color-1, #e9e9e9);
+    border-radius: 12px;
+    width: 489px;
+    height: 640px;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    overflow: hidden;
+}
+
+.create-account2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: absolute;
+    left: 94px;
+    top: 28px;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.input-field-states {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.first-name {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-3192 {
+    background: var(--white-color, #ffffff);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 44px;
+    position: relative;
+}
+
+.place-holder {
+    color: var(--grey-color-3, #c8c8c8);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.demo-text {
+    color: var(--grey-color-3, #c8c8c8);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.button {
+    background: var(--primary-color-6, #0c3cff);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon-solid-arrow-left {
+    flex-shrink: 0;
+    position: relative;
+    transform: translate(-20px, 0px);
+    overflow: visible;
+}
+
+._1-3 {
+    width: 97px;
+    height: 97px;
+    position: absolute;
+    left: 1171px;
+    top: 175px;
+}
+
+.icon2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+._1-32 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-3-semi-bold, 600 31.25px/32px "Poppins", sans-serif);
+    position: absolute;
+    left: 26px;
+    top: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

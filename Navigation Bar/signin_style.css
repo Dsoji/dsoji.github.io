@@ -1,0 +1,880 @@
+.sign-in,
+.sign-in * {
+    box-sizing: border-box;
+}
+
+.sign-in {
+    background: var(--white-color, #ffffff);
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+
+.q-pay-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 121px;
+    top: 60px;
+}
+
+.logo {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.vector3 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.welcome-back {
+    color: var(--primary-color-5, #355dff);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: absolute;
+    left: 120px;
+    top: 207px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.we-re-delighted-you-re-back-log-into-your-account-safely-and-take-in-the-moments {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 120px;
+    top: 263px;
+    width: 486px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input-text-frame {
+    background: var(--grey-color-1, #e9e9e9);
+    border-radius: 12px;
+    width: 485px;
+    height: 400px;
+    position: absolute;
+    left: 121px;
+    top: 311px;
+    overflow: hidden;
+}
+
+.input-and-button {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: absolute;
+    left: 92px;
+    top: 56px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.input-field-states {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.input-field2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.first-name {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.place-holder {
+    background: var(--white-color, #ffffff);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 44px;
+    position: relative;
+}
+
+.place-holder2 {
+    color: var(--grey-color-3, #c8c8c8);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.eye-icon {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.demo-text {
+    color: var(--error, #fe1304);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.forgot-password-let-s-resolve-this {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.button {
+    background: var(--primary-color-5, #355dff);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon-solid-arrow-left {
+    flex-shrink: 0;
+    position: relative;
+    transform: translate(-20px, 0px);
+    overflow: visible;
+}
+
+.new-to-q-pay-get-started {
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 260px;
+    top: 735px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.new-to-q-pay-get-started-span {
+    color: var(--black-color-8, #000000);
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+}
+
+.new-to-q-pay-get-started-span2 {
+    color: var(--primary-color-5, #355dff);
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+}
+
+.sign-in-pana {
+position: absolute;
+    left: 800.01px;
+    top: 180.83px;
+    overflow: visible;
+}
+
+.background-complete {
+    position: absolute;
+    left: 737.89px;
+    top: 211.21px;
+    overflow: visible;
+}
+
+.background-simple {
+    opacity: 0;
+    position: absolute;
+    left: 748.69px;
+    top: 207px;
+    overflow: visible;
+}
+
+.floor {
+    position: absolute;
+    left: 731.41px;
+    top: 695.94px;
+    overflow: visible;
+}
+
+.speech-bubble {
+    position: absolute;
+    left: 1181.01px;
+    top: 353.83px;
+    overflow: visible;
+}
+
+.plant {
+    width: 175.61px;
+    height: 281.88px;
+    position: static;
+}
+
+.vector86 {
+    position: absolute;
+    left: 756.41px;
+    top: 420.88px;
+    overflow: visible;
+}
+
+.group {
+    opacity: 0.30000001192092896;
+    position: absolute;
+    left: 756.42px;
+    top: 420.88px;
+    overflow: visible;
+}
+
+.vector88 {
+    position: absolute;
+    left: 811.76px;
+    top: 414.36px;
+    overflow: visible;
+}
+
+.vector89 {
+    position: absolute;
+    left: 730px;
+    top: 461.55px;
+    overflow: visible;
+}
+
+.vector90 {
+    position: absolute;
+    left: 817.94px;
+    top: 452.14px;
+    overflow: visible;
+}
+
+.vector91 {
+    position: absolute;
+    left: 825.01px;
+    top: 523.21px;
+    overflow: visible;
+}
+
+.vector92 {
+    position: absolute;
+    left: 747.05px;
+    top: 483.44px;
+    overflow: visible;
+}
+
+.vector93 {
+    position: absolute;
+    left: 821.93px;
+    top: 576.07px;
+    overflow: visible;
+}
+
+.vector94 {
+    position: absolute;
+    left: 774.49px;
+    top: 631.63px;
+    overflow: visible;
+}
+
+.vector95 {
+    position: absolute;
+    left: 781.69px;
+    top: 646.44px;
+    overflow: visible;
+}
+
+.vector96 {
+    position: absolute;
+    left: 779.32px;
+    top: 646.12px;
+    overflow: visible;
+}
+
+.character {
+    width: 228.21px;
+    height: 330.75px;
+    position: static;
+}
+
+.vector97 {
+    position: absolute;
+    left: 1149.2px;
+    top: 612.86px;
+    overflow: visible;
+}
+
+.vector98 {
+    position: absolute;
+    left: 1198.17px;
+    top: 665.1px;
+    overflow: visible;
+}
+
+.group2 {
+    opacity: 0.6000000238418579;
+    position: absolute;
+    left: 1236.82px;
+    top: 695.74px;
+    overflow: visible;
+}
+
+.group3 {
+    opacity: 0.6000000238418579;
+    position: absolute;
+    left: 1227.2px;
+    top: 695.2px;
+    overflow: visible;
+}
+
+.vector101 {
+    position: absolute;
+    left: 1261.53px;
+    top: 687.04px;
+    overflow: visible;
+}
+
+.vector102 {
+    position: absolute;
+    left: 1269.32px;
+    top: 688.35px;
+    overflow: visible;
+}
+
+.vector103 {
+    position: absolute;
+    left: 1253.34px;
+    top: 685.74px;
+    overflow: visible;
+}
+
+.vector104 {
+    position: absolute;
+    left: 1242.49px;
+    top: 683.43px;
+    overflow: visible;
+}
+
+.vector105 {
+    position: absolute;
+    left: 1231.13px;
+    top: 678.23px;
+    overflow: visible;
+}
+
+.vector106 {
+    position: absolute;
+    left: 1221.45px;
+    top: 673.49px;
+    overflow: visible;
+}
+
+.vector107 {
+    position: absolute;
+    left: 1065.72px;
+    top: 606.7px;
+    overflow: visible;
+}
+
+.vector108 {
+    position: absolute;
+    left: 1085.19px;
+    top: 674.7px;
+    overflow: visible;
+}
+
+.group4 {
+    opacity: 0.6000000238418579;
+    position: absolute;
+    left: 1085.12px;
+    top: 691.18px;
+    overflow: visible;
+}
+
+.group5 {
+    opacity: 0.6000000238418579;
+    position: absolute;
+    left: 1117.89px;
+    top: 691.05px;
+    overflow: visible;
+}
+
+.vector111 {
+    position: absolute;
+    left: 1099.46px;
+    top: 717.98px;
+    overflow: visible;
+}
+
+.vector112 {
+    position: absolute;
+    left: 1095.35px;
+    top: 722.74px;
+    overflow: visible;
+}
+
+.vector113 {
+    position: absolute;
+    left: 1104.09px;
+    top: 710.72px;
+    overflow: visible;
+}
+
+.vector114 {
+    position: absolute;
+    left: 1115.83px;
+    top: 705.47px;
+    overflow: visible;
+}
+
+.vector115 {
+    position: absolute;
+    left: 1127.45px;
+    top: 701.02px;
+    overflow: visible;
+}
+
+.vector116 {
+    position: absolute;
+    left: 1132.51px;
+    top: 697.21px;
+    overflow: visible;
+}
+
+.vector117 {
+    position: absolute;
+    left: 1117.26px;
+    top: 671.44px;
+    overflow: visible;
+}
+
+.vector118 {
+    position: absolute;
+    left: 1087.11px;
+    top: 628.92px;
+    overflow: visible;
+}
+
+.vector119 {
+    position: absolute;
+    left: 1116.62px;
+    top: 675.46px;
+    overflow: visible;
+}
+
+.vector120 {
+    position: absolute;
+    left: 1184.02px;
+    top: 628.72px;
+    overflow: visible;
+}
+
+.vector121 {
+    position: absolute;
+    left: 1105.01px;
+    top: 503.38px;
+    overflow: visible;
+}
+
+.vector122 {
+    position: absolute;
+    left: 1213.23px;
+    top: 513.24px;
+    overflow: visible;
+}
+
+.vector123 {
+    position: absolute;
+    left: 1202.31px;
+    top: 530.45px;
+    overflow: visible;
+}
+
+.vector124 {
+    position: absolute;
+    left: 1064.7px;
+    top: 507.51px;
+    overflow: visible;
+}
+
+.vector125 {
+    position: absolute;
+    left: 1216.16px;
+    top: 563.62px;
+    overflow: visible;
+}
+
+.vector126 {
+    position: absolute;
+    left: 1146.64px;
+    top: 556.81px;
+    overflow: visible;
+}
+
+.vector127 {
+    position: absolute;
+    left: 1175.7px;
+    top: 547.38px;
+    overflow: visible;
+}
+
+.vector128 {
+    position: absolute;
+    left: 1172.76px;
+    top: 549.69px;
+    overflow: visible;
+}
+
+.vector129 {
+    position: absolute;
+    left: 1172.74px;
+    top: 554.01px;
+    overflow: visible;
+}
+
+.vector130 {
+    position: absolute;
+    left: 1187.71px;
+    top: 565.22px;
+    overflow: visible;
+}
+
+.vector131 {
+    position: absolute;
+    left: 1183.12px;
+    top: 570.86px;
+    overflow: visible;
+}
+
+.vector132 {
+    position: absolute;
+    left: 1190.34px;
+    top: 572.16px;
+    overflow: visible;
+}
+
+.vector133 {
+    position: absolute;
+    left: 1185.23px;
+    top: 577.9px;
+    overflow: visible;
+}
+
+.vector134 {
+    position: absolute;
+    left: 1192.46px;
+    top: 577.59px;
+    overflow: visible;
+}
+
+.vector135 {
+    position: absolute;
+    left: 1184.56px;
+    top: 553.88px;
+    overflow: visible;
+}
+
+.vector136 {
+    position: absolute;
+    left: 1201.37px;
+    top: 559.79px;
+    overflow: visible;
+}
+
+.vector137 {
+    position: absolute;
+    left: 1201.91px;
+    top: 574.69px;
+    overflow: visible;
+}
+
+.vector138 {
+    position: absolute;
+    left: 1210.77px;
+    top: 583.73px;
+    overflow: visible;
+}
+
+.vector139 {
+    position: absolute;
+    left: 1217.14px;
+    top: 573.73px;
+    overflow: visible;
+}
+
+.vector140 {
+    position: absolute;
+    left: 1225.55px;
+    top: 568.1px;
+    overflow: visible;
+}
+
+.vector141 {
+    position: absolute;
+    left: 1201.62px;
+    top: 549.21px;
+    overflow: visible;
+}
+
+.vector142 {
+    position: absolute;
+    left: 1223.78px;
+    top: 552.62px;
+    overflow: visible;
+}
+
+.vector143 {
+    position: absolute;
+    left: 1131.48px;
+    top: 433.95px;
+    overflow: visible;
+}
+
+.vector144 {
+    position: absolute;
+    left: 1134.45px;
+    top: 434.64px;
+    overflow: visible;
+}
+
+.vector145 {
+    position: absolute;
+    left: 1151.14px;
+    top: 438.88px;
+    overflow: visible;
+}
+
+.vector146 {
+    position: absolute;
+    left: 1145.28px;
+    top: 414.34px;
+    overflow: visible;
+}
+
+.vector147 {
+    position: absolute;
+    left: 1130.14px;
+    top: 426.27px;
+    overflow: visible;
+}
+
+.vector148 {
+    position: absolute;
+    left: 1157.62px;
+    top: 404.25px;
+    overflow: visible;
+}
+
+.vector149 {
+    position: absolute;
+    left: 1179.35px;
+    top: 407.47px;
+    overflow: visible;
+}
+
+.vector150 {
+    position: absolute;
+    left: 1170.75px;
+    top: 428.59px;
+    overflow: visible;
+}
+
+.vector151 {
+    position: absolute;
+    left: 1169.69px;
+    top: 435.15px;
+    overflow: visible;
+}
+
+.vector152 {
+    position: absolute;
+    left: 1164.2px;
+    top: 429.78px;
+    overflow: visible;
+}
+
+.vector153 {
+    position: absolute;
+    left: 1183.19px;
+    top: 497.18px;
+    overflow: visible;
+}
+
+.vector154 {
+    position: absolute;
+    left: 1215.92px;
+    top: 469.65px;
+    overflow: visible;
+}
+
+.vector155 {
+    position: absolute;
+    left: 1214.76px;
+    top: 462.75px;
+    overflow: visible;
+}
+
+.vector156 {
+    position: absolute;
+    left: 1194.87px;
+    top: 465.93px;
+    overflow: visible;
+}
+
+.vector157 {
+    position: absolute;
+    left: 1191.8px;
+    top: 458.35px;
+    overflow: visible;
+}
+
+.vector158 {
+    position: absolute;
+    left: 1204.11px;
+    top: 461.89px;
+    overflow: visible;
+}
+
+.vector159 {
+    position: absolute;
+    left: 1196.12px;
+    top: 479.85px;
+    overflow: visible;
+}
+
+.vector160 {
+    position: absolute;
+    left: 1191.66px;
+    top: 449.96px;
+    overflow: visible;
+}
+
+.vector161 {
+    position: absolute;
+    left: 1216.37px;
+    top: 455.34px;
+    overflow: visible;
+}
+
+.vector162 {
+    position: absolute;
+    left: 1161.28px;
+    top: 462.28px;
+    overflow: visible;
+}
+
+.vector163 {
+    position: absolute;
+    left: 1164.03px;
+    top: 465.28px;
+    overflow: visible;
+}
+
+.vector164 {
+    position: absolute;
+    left: 1170.08px;
+    top: 427.75px;
+    overflow: visible;
+}
+
+.vector165 {
+    position: absolute;
+    left: 1091.33px;
+    top: 565.85px;
+    overflow: visible;
+}
+
+.vector166 {
+    position: absolute;
+    left: 1113.33px;
+    top: 552.71px;
+    overflow: visible;
+}
+
+.vector167 {
+    position: absolute;
+    left: 1126.9px;
+    top: 510.32px;
+    overflow: visible;
+}
+
+.vector168 {
+    position: absolute;
+    left: 1173.2px;
+    top: 623.89px;
+    overflow: visible;
+}
+
+.vector169 {
+    position: absolute;
+    left: 1165.81px;
+    top: 604.54px;
+    overflow: visible;
+}

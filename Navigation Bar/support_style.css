@@ -1,0 +1,868 @@
+.get-in-touch,
+.get-in-touch * {
+  box-sizing: border-box;
+}
+.get-in-touch {
+  background: #ffffff;
+  padding: 48px 121px 48px 121px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.get-in-touch2 {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.get-in-touch-with-us {
+  color: var(--primary-color-6, #0c3cff);
+  text-align: left;
+  font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.get-in-touch3 {
+  display: flex;
+  flex-direction: row;
+  gap: 154px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.support {
+  background: var(--grey-color-1, #e9e9e9);
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 692px;
+  height: 576px;
+  position: relative;
+  overflow: hidden;
+}
+.line-34 {
+  border-style: solid;
+  border-color: var(--white-color, #ffffff);
+  border-width: 1px 0 0 0;
+  width: 600px;
+  height: 0px;
+  position: absolute;
+  left: 24px;
+  top: 62px;
+}
+.email-us-your-enquiries {
+  color: var(--black-color-8, #000000);
+  text-align: left;
+  font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+  position: absolute;
+  left: 24px;
+  top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.email-us-input-field {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 614px;
+  position: absolute;
+  left: 39px;
+  top: 86px;
+}
+.input-field-states {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.first-name {
+  color: var(--black-color-8, #000000);
+  text-align: left;
+  font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-3192 {
+  background: var(--white-color, #ffffff);
+  border-radius: 12px;
+  border-style: solid;
+  border-color: var(--primary-color-6, #0c3cff);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  height: 44px;
+  position: relative;
+}
+.place-holder {
+  color: var(--grey-color-1, #e9e9e9);
+  text-align: left;
+  font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-field-states2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 612px;
+  height: 207px;
+  position: relative;
+}
+.input-field2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.frame-31922 {
+  background: var(--white-color, #ffffff);
+  border-radius: 12px;
+  border-style: solid;
+  border-color: var(--primary-color-6, #0c3cff);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.place-holder2 {
+  text-align: left;
+  font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.place-holder-2-span {
+  color: var(--white-color, #ffffff);
+  font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+}
+.place-holder-2-span2 {
+  color: var(--grey-color-3, #c8c8c8);
+  font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+}
+.button {
+  background: var(--primary-color-5, #355dff);
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 612px;
+  height: 56px;
+  position: relative;
+  overflow: hidden;
+}
+.button2 {
+  color: var(--white-color, #ffffff);
+  text-align: left;
+  font: var(--p-1-bold, 700 16px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.reach-us-at {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.line-55 {
+  border-style: solid;
+  border-color: var(--secondary-color-5, #fc8f2b);
+  border-width: 6px 0 0 0;
+  flex-shrink: 0;
+  width: 520px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+}
+.reach-us-at2 {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.reach-us-at3 {
+  color: var(--primary-color-6, #0c3cff);
+  text-align: left;
+  font: var(--h-3-extra-bold, 800 31.25px/32px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.address2 {
+  color: #000000;
+  text-align: left;
+  font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._105-herbart-macaulay-way-yaba-lagos-nigeria {
+  color: var(--black-color-8, #000000);
+  text-align: left;
+  font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.phone {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.phone2 {
+  color: #000000;
+  text-align: left;
+  font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.email2 {
+  color: #000000;
+  text-align: left;
+  font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.support-qpay-com {
+  color: var(--black-color-8, #000000);
+  text-align: left;
+  font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.frequently-ask-questions {
+  color: var(--primary-color-6, #0c3cff);
+  text-align: left;
+  font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.faq2 {
+  background: var(--grey-color-1, #e9e9e9);
+  border-radius: 12px;
+  padding: 60px 24px 60px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.faq3 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.what-is-q-pay {
+  background: var(--white-color, #ffffff);
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 792px;
+  position: relative;
+  overflow: hidden;
+}
+.what-is-q-pay2 {
+  color: var(--black-color-8, #000000);
+  text-align: left;
+  font: var(--p-1-semi-bold, 600 16px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heroicons-solid-plus {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.how-secured-is-the-platform {
+  background: var(--white-color, #ffffff);
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 792px;
+  position: relative;
+  overflow: hidden;
+}
+.how-secured-is-the-platform2 {
+  color: var(--black-color-8, #000000);
+  text-align: left;
+  font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heroicons-solid-plus2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.how-do-i-start-saving {
+  background: var(--white-color, #ffffff);
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 792px;
+  position: relative;
+  overflow: hidden;
+}
+.how-do-i-start-saving2 {
+  color: var(--black-color-8, #000000);
+  text-align: left;
+  font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heroicons-solid-plus3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.can-i-withdraw-at-anytime {
+  background: var(--white-color, #ffffff);
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 792px;
+  position: relative;
+  overflow: hidden;
+}
+.can-i-withdraw-at-anytime2 {
+  color: var(--black-color-8, #000000);
+  text-align: left;
+  font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heroicons-solid-plus4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.can-i-withdraw-my-money-before-my-due-date-in-case-of-an-emergency {
+  background: var(--white-color, #ffffff);
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 792px;
+  position: relative;
+  overflow: hidden;
+}
+.can-i-withdraw-my-money-before-my-due-date-in-case-of-an-emergency2 {
+  color: var(--black-color-8, #000000);
+  text-align: left;
+  font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heroicons-solid-plus5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.can-i-use-q-pay-outside-nigeria {
+  background: var(--white-color, #ffffff);
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 792px;
+  position: relative;
+  overflow: hidden;
+}
+.can-i-use-q-pay-outside-nigeria2 {
+  color: var(--black-color-8, #000000);
+  text-align: left;
+  font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heroicons-solid-plus6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.get-in-touch,
+.get-in-touch * {
+    box-sizing: border-box;
+}
+
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.get-in-touch-with-us {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.get-in-touch2 {
+    display: flex;
+    flex-direction: row;
+    gap: 154px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.support {
+    background: var(--grey-color-1, #e9e9e9);
+    border-radius: 12px;
+    flex-shrink: 0;
+    width: 692px;
+    height: 576px;
+    position: relative;
+    overflow: hidden;
+}
+
+.line-34 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 600px;
+    height: 0px;
+    position: absolute;
+    left: 24px;
+    top: 62px;
+}
+
+.email-us-your-enquiries {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.email-us-input-field {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 614px;
+    position: absolute;
+    left: 39px;
+    top: 86px;
+}
+
+.input-field-states {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.first-name {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-3192 {
+    background: var(--white-color, #ffffff);
+    border-radius: 12px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 44px;
+    position: relative;
+}
+
+.place-holder {
+    color: var(--grey-color-1, #e9e9e9);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input-field-states2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 612px;
+    height: 207px;
+    position: relative;
+}
+
+.input-field2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+}
+
+.frame-31922 {
+    background: var(--white-color, #ffffff);
+    border-radius: 12px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+}
+
+.place-holder2 {
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.place-holder-2-span {
+    color: var(--white-color, #ffffff);
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+}
+
+.place-holder-2-span2 {
+    color: var(--grey-color-3, #c8c8c8);
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+}
+
+.button {
+    background: var(--primary-color-5, #355dff);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 612px;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-1-bold, 700 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.reach-us-at {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.line-55 {
+    border-style: solid;
+    border-color: var(--secondary-color-5, #fc8f2b);
+    border-width: 6px 0 0 0;
+    flex-shrink: 0;
+    width: 520px;
+    height: 0px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(-90deg) scale(1, 1);
+}
+
+.reach-us-at2 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.reach-us-at3 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-3-extra-bold, 800 31.25px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.address2 {
+    color: #000000;
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+._105-herbart-macaulay-way-yaba-lagos-nigeria {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.phone2 {
+    color: #000000;
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.email2 {
+    color: #000000;
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.support-qpay-com {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

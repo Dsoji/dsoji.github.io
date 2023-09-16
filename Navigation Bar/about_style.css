@@ -1,0 +1,545 @@
+.about-us,
+.about-us * {
+    box-sizing: border-box;
+}
+
+.about-us {
+    padding: 48px 120px 48px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us2 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.about-us3 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.context {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.context2 {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.company-picture {
+    flex-shrink: 0;
+    width: 586px;
+    height: 470px;
+    position: relative;
+}
+
+.at-qpay-we-re-not-just-about-transactions-we-re-about-realizing-dreams-and-securing-futures-that-s-why-we-re-thrilled-to-introduce-our-innovative-target-savings-feature-designed-to-empower-you-with-a-personalized-roadmap-towards-your-financial-aspirations-with-qpay-s-target-savings-you-have-the-power-to-define-your-goals-whether-it-s-a-dream-vacation-buying-your-first-home-or-launching-your-own-business-simply-create-your-savings-targets-and-let-us-guide-you-every-step-of-the-way-we-understand-that-everyone-s-journey-is-unique-that-s-why-our-platform-lets-you-create-customized-savings-plans-that-align-with-your-goals-and-timeline-whether-you-re-saving-up-for-short-term-indulgences-or-long-term-ambitions-qpay-adapts-to-your-needs-visualize-your-progress-with-ease-through-our-intuitive-tracking-tools-watch-as-your-savings-grow-and-witness-your-milestones-getting-closer-qpay-s-real-time-updates-keep-you-motivated-and-in-control-of-your-financial-destiny {
+    color: #000000;
+    text-align: justified;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 552px;
+}
+
+.automated-convenience-say-goodbye-to-manual-transfers-and-calculations-qpay-s-target-savings-feature-automates-your-savings-journey-set-up-recurring-transfers-to-your-target-goals-and-watch-your-money-work-diligently-behind-the-scenes-life-is-dynamic-and-so-are-your-financial-needs-adjust-your-savings-goals-timeline-and-contributions-whenever-you-need-to-qpay-ensures-that-you-re-always-in-charge-no-matter-how-your-circumstances-evolve-celebrate-your-victories-every-achievement-no-matter-how-big-or-small-deserves-celebration-with-qpay-s-target-savings-you-ll-celebrate-each-milestone-you-reach-along-the-way-to-your-ultimate-goal-it-s-not-just-about-the-destination-it-s-about-cherishing-the-journey-your-financial-security-is-our-priority-qpay-employs-advanced-security-measures-to-safeguard-your-funds-and-personal-information-rest-easy-knowing-that-your-savings-journey-is-protected-every-step-of-the-way-qpay-is-more-than-just-a-platform-it-s-a-community-of-like-minded-individuals-striving-for-financial-success-connect-with-others-share-tips-and-find-inspiration-as-you-embark-on-your-savings-journey-together-with-qpay-s-target-savings-feature-the-future-you-ve-always-envisioned-is-now-within-reach-start-your-journey-toward-financial-empowerment-today-and-experience-the-satisfaction-of-watching-your-dreams-become-reality-your-goals-your-timeline-your-qpay {
+    color: #000000;
+    text-align: justified;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 1200px;
+}
+
+.our-core-values,
+.our-core-values * {
+    box-sizing: border-box;
+}
+
+.our-core-values {
+    background: var(--white-color, #ffffff);
+    padding: 48px 120px 48px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-core-values2 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 1200px;
+    position: relative;
+}
+
+.our-core-values3 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.context {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.trust-security {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.company-picture {
+    flex-shrink: 0;
+    width: 387px;
+    height: 291px;
+    position: relative;
+}
+
+.trust-security2 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.we-prioritize-the-security-of-our-user-data-and-financial-transactions-establishing-a-strong-commitment-to-protecting-user-privacy-and-safeguarding-sensitive-information {
+    color: var(--black-color-11, #000000);
+    text-align: center;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 323px;
+}
+
+.financial-literacy {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.financial-literacy2 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.we-promote-financial-education-and-empowerment-by-offering-resources-tips-and-tools-to-help-users-make-informed-financial-decisions {
+    color: var(--black-color-11, #000000);
+    text-align: center;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 323px;
+}
+
+.social-responsibilties {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.social-responsibilty {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.we-engage-in-initiatives-that-give-back-to-the-community-also-promote-financial-inclusion-and-empowerment-aligning-your-business-goals-with-positive-social-impact {
+    color: var(--black-color-11, #000000);
+    text-align: center;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 323px;
+}
+.meat-the-team,
+.meat-the-team * {
+    box-sizing: border-box;
+}
+
+.meat-the-team {
+    background: var(--white-color, #ffffff);
+    padding: 48px 120px 48px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.meet-the-team {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.meet-the-team2 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: center;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meat-the-team2 {
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    width: 1200px;
+    position: relative;
+}
+
+.team-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.picture {
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-name {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.faniyi-damilare {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-4-bold, 700 25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.line-53 {
+    border-style: solid;
+    border-color: var(--black-color-5, #2b2b2b);
+    border-width: 1px 0 0 0;
+    flex-shrink: 0;
+    width: 180px;
+    height: 0px;
+    position: relative;
+}
+
+.it-specialist {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-bold, 700 16px "Poppins", sans-serif);
+    position: relative;
+}
+
+.team-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.idris-a-hassan {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-4-bold, 700 25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.team-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.fowotade-simeon {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-4-bold, 700 25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.team-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.okafor-sotochukwu {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-4-bold, 700 25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.team-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.team-6 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.obinna-sly {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-4-bold, 700 25px/32px "Poppins", sans-serif);
+    position: relative;
+}
+
+.our-partners,
+.our-partners * {
+    box-sizing: border-box;
+}
+
+.our-partners {
+    background: var(--white-color, #ffffff);
+    padding: 48px 220px 48px 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-patners {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.our-partners2 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: center;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.vephla {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.vephla-1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+._2960056556176 {
+    position: absolute;
+    left: 417.22px;
+    top: 85.25px;
+    overflow: visible;
+}
+
+.company-picture {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.about-us,
+.about-us * {
+    box-sizing: border-box;
+}
+
+.about-us {
+    padding: 48px 120px 48px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us2 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.about-us3 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contxt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.contxt2 {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.companypicture {
+    flex-shrink: 0;
+    width: 586px;
+    height: 470px;
+    position: relative;
+}
+
+.at-qpay-we-re-not-just-about-transactions-we-re-about-realizing-dreams-and-securing-futures-that-s-why-we-re-thrilled-to-introduce-our-innovative-target-savings-feature-designed-to-empower-you-with-a-personalized-roadmap-towards-your-financial-aspirations-with-qpay-s-target-savings-you-have-the-power-to-define-your-goals-whether-it-s-a-dream-vacation-buying-your-first-home-or-launching-your-own-business-simply-create-your-savings-targets-and-let-us-guide-you-every-step-of-the-way-we-understand-that-everyone-s-journey-is-unique-that-s-why-our-platform-lets-you-create-customized-savings-plans-that-align-with-your-goals-and-timeline-whether-you-re-saving-up-for-short-term-indulgences-or-long-term-ambitions-qpay-adapts-to-your-needs-visualize-your-progress-with-ease-through-our-intuitive-tracking-tools-watch-as-your-savings-grow-and-witness-your-milestones-getting-closer-qpay-s-real-time-updates-keep-you-motivated-and-in-control-of-your-financial-destiny {
+    color: #000000;
+    text-align: justified;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 552px;
+}
+
+.automated-convenience-say-goodbye-to-manual-transfers-and-calculations-qpay-s-target-savings-feature-automates-your-savings-journey-set-up-recurring-transfers-to-your-target-goals-and-watch-your-money-work-diligently-behind-the-scenes-life-is-dynamic-and-so-are-your-financial-needs-adjust-your-savings-goals-timeline-and-contributions-whenever-you-need-to-qpay-ensures-that-you-re-always-in-charge-no-matter-how-your-circumstances-evolve-celebrate-your-victories-every-achievement-no-matter-how-big-or-small-deserves-celebration-with-qpay-s-target-savings-you-ll-celebrate-each-milestone-you-reach-along-the-way-to-your-ultimate-goal-it-s-not-just-about-the-destination-it-s-about-cherishing-the-journey-your-financial-security-is-our-priority-qpay-employs-advanced-security-measures-to-safeguard-your-funds-and-personal-information-rest-easy-knowing-that-your-savings-journey-is-protected-every-step-of-the-way-qpay-is-more-than-just-a-platform-it-s-a-community-of-like-minded-individuals-striving-for-financial-success-connect-with-others-share-tips-and-find-inspiration-as-you-embark-on-your-savings-journey-together-with-qpay-s-target-savings-feature-the-future-you-ve-always-envisioned-is-now-within-reach-start-your-journey-toward-financial-empowerment-today-and-experience-the-satisfaction-of-watching-your-dreams-become-reality-your-goals-your-timeline-your-qpay {
+    color: #000000;
+    text-align: justified;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    width: 1200px;
+}
