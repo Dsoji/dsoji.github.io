@@ -78,20 +78,20 @@
 .inputs {
     display: flex;
     flex-direction: row;
-    gap: 209px;
+    gap: 50px;
     align-items: flex-end;
     justify-content: flex-start;
     flex-wrap: wrap;
     width: 729px;
     position: absolute;
     left: 83px;
-    top: 88px;
+    top: 58px;
 }
 
 .content {
     display: flex;
     flex-direction: row;
-    gap: 120px;
+    gap: 30px;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;

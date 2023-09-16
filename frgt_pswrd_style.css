@@ -1,0 +1,232 @@
+.forgot-password,
+.forgot-password * {
+    box-sizing: border-box;
+}
+
+.forgot-password {
+    background: var(--white-color, #ffffff);
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+
+.q-pay-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 121px;
+    top: 60px;
+}
+
+.logo {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.vector3 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.forgot-password2 {
+    color: var(--primary-color-5, #355dff);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: absolute;
+    left: 120px;
+    top: 207px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.no-worries-we-ve-got-you-covered-let-s-get-you-back-in-and-connected-in-no-time {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 120px;
+    top: 263px;
+    width: 486px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input-text-frame {
+    background: var(--grey-color-1, #e9e9e9);
+    border-radius: 12px;
+    width: 485px;
+    height: 260px;
+    position: absolute;
+    left: 121px;
+    top: 311px;
+    overflow: hidden;
+}
+
+.input-forgot-password {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 92px;
+    top: 55px;
+}
+
+.input-field-states {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.first-name {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.place-holder {
+    background: var(--white-color, #ffffff);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 44px;
+    position: relative;
+}
+
+.place-holder2 {
+    color: var(--grey-color-3, #c8c8c8);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.button {
+    background: var(--primary-color-5, #355dff);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon-solid-arrow-left {
+    flex-shrink: 0;
+    position: relative;
+    transform: translate(-20px, 0px);
+    overflow: visible;
+}
+
+.forgot-password-rafiki {
+    position: absolute;
+    inset: 0;
+}
+
+.background-complete {
+    position: absolute;
+    left: 730px;
+    top: 252px;
+    overflow: visible;
+}
+
+.background-simple {
+    opacity: 0;
+    position: absolute;
+    left: 797.93px;
+    top: 287.43px;
+    overflow: visible;
+}
+
+.shadow {
+    position: absolute;
+    left: 796.21px;
+    top: 740.4px;
+    overflow: visible;
+}
+
+.login {
+    position: absolute;
+    left: 848.22px;
+    top: 350.53px;
+    overflow: visible;
+}
+
+.character {
+    position: absolute;
+    left: 1056.06px;
+    top: 353.26px;
+    overflow: visible;
+}
+
+.thinking {
+    position: absolute;
+    left: 1117.94px;
+    top: 263.63px;
+    overflow: visible;
+}
+
+.log-in-with-password {
+    color: var(--primary-color-5, #355dff);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 279px;
+    top: 595px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

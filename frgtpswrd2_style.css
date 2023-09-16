@@ -1,0 +1,267 @@
+.otp,
+.otp * {
+    box-sizing: border-box;
+}
+
+.otp {
+    background: var(--white-color, #ffffff);
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+
+.q-pay-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 121px;
+    top: 60px;
+}
+
+.logo {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.vector3 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.enter-otp {
+    color: var(--primary-color-5, #355dff);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: absolute;
+    left: 120px;
+    top: 237px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.a-six-digit-code-has-been-sent-to-your-phone-number-ending-8821 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 120px;
+    top: 293px;
+    width: 486px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.otp-frame {
+    background: var(--grey-color-1, #e9e9e9);
+    border-radius: 12px;
+    width: 485px;
+    height: 260px;
+    position: absolute;
+    left: 121px;
+    top: calc(50% - 130px);
+    overflow: hidden;
+}
+
+.otp2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    height: 152px;
+    position: absolute;
+    left: 32px;
+    top: 50px;
+}
+
+.otp-codes {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+._6 {
+    background: var(--white-color, #ffffff);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+._5 {
+    background: var(--white-color, #ffffff);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+._4 {
+    background: var(--white-color, #ffffff);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+._3 {
+    background: var(--white-color, #ffffff);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+._2 {
+    background: var(--white-color, #ffffff);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+._1 {
+    background: var(--white-color, #ffffff);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button {
+    background: var(--primary-color-5, #355dff);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon-solid-arrow-left {
+    flex-shrink: 0;
+    position: relative;
+    transform: translate(-20px, 0px);
+    overflow: visible;
+}
+
+.enter-otp-cuate {
+    position: absolute;
+    inset: 0;
+}
+
+.background-complete {
+    position: absolute;
+    left: 719.81px;
+    top: 210.97px;
+    overflow: visible;
+}
+
+.background-simple {
+    opacity: 0;
+    position: absolute;
+    left: 710px;
+    top: 204px;
+    overflow: visible;
+}
+
+.plant {
+    position: absolute;
+    left: 1147.62px;
+    top: 557.5px;
+    overflow: visible;
+}
+
+.floor {
+    position: absolute;
+    left: 726.03px;
+    top: 718.16px;
+    overflow: visible;
+}
+
+.screen {
+    position: absolute;
+    left: 751.04px;
+    top: 232.66px;
+    overflow: visible;
+}
+
+.shield {
+    position: absolute;
+    left: 1177.96px;
+    top: 222.68px;
+    overflow: visible;
+}
+
+.speech-bubble {
+    position: absolute;
+    left: 952.4px;
+    top: 421.86px;
+    overflow: visible;
+}
+
+.character {
+    position: absolute;
+    left: 723.4px;
+    top: 426.51px;
+    overflow: visible;
+}
