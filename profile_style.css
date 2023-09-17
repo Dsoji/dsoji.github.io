@@ -1,0 +1,777 @@
+.profile-page,
+.profile-page * {
+    box-sizing: border-box;
+}
+
+.profile-page {
+    background: #ffffff;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+
+.side-bar {
+    width: 300px;
+    height: 1024px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.side-bar-rectangle {
+    background: var(--primary-color-6, #0c3cff);
+    width: 300px;
+    height: 1024px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    width: 200px;
+    height: 66px;
+    position: absolute;
+    left: 51px;
+    top: 40px;
+}
+
+.group {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.vector3 {
+    position: absolute;
+    left: 79.6px;
+    top: 9.43px;
+    overflow: visible;
+}
+
+.side-bar-context {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 168px;
+}
+
+.my-dashboard {
+    padding: 4px 57px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-squares-2-x-2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.my-dashboard2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.my-profile {
+    background: var(--primary-color-7, #0a32d4);
+    padding: 4px 96px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-user {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.my-profile2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.my-transactions {
+    padding: 4px 40px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-bars-3-bottom-left {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.my-transactions2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.create-saving-goals {
+    padding: 4px 10px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-inbox-arrow-down {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.create-saving-goals2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.add-money {
+    padding: 4px 84px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-plus-circle {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.add-money2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.withdraw {
+    padding: 4px 95px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-rectangle-stack {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.withdraw2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.settings {
+    padding: 4px 109px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-wrench-screwdriver {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.settings2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.support-dp {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.support {
+    background: var(--primary-color-6, #0c3cff);
+    padding: 10px 10px 10px 48.5px;
+    display: flex;
+    flex-direction: row;
+    gap: 20.5px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.support-icons {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.support2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroicons-solid {
+    flex-shrink: 0;
+    position: absolute;
+    right: 24px;
+    top: 14px;
+    overflow: visible;
+}
+
+.log-out {
+    padding: 4px 115px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-arrow-right-on-rectangle {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.log-out2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.my-profile3 {
+    width: 995px;
+    height: 32px;
+    position: absolute;
+    left: 323px;
+    top: 60px;
+}
+
+.my-profile4 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dashboard-icons {
+    width: 308px;
+    height: 32px;
+    position: absolute;
+    left: 687px;
+    top: 0px;
+}
+
+.search {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    padding: 4px 7px 4px 7px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.search-1 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.alarm {
+    position: absolute;
+    left: 212px;
+    top: 4px;
+    overflow: visible;
+}
+
+.dashboard-icon {
+    position: absolute;
+    left: 248px;
+    top: 4px;
+    overflow: visible;
+}
+
+.sign-out-icon {
+    position: absolute;
+    left: 284px;
+    top: 4px;
+    overflow: visible;
+}
+
+.profile-information {
+    background: var(--grey-color-1, #e9e9e9);
+    border-radius: 12px;
+    width: 489px;
+    height: 700px;
+    position: absolute;
+    left: 323px;
+    top: 180px;
+    overflow: hidden;
+}
+
+.full-name {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--caption-regular, 400 12px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 67.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.email {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--caption-regular, 400 12px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 299.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home-address {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--caption-regular, 400 12px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 357.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.employment-status {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--caption-regular, 400 12px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 460.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.monthly-income {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--caption-regular, 400 12px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 518.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.security-question {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--caption-regular, 400 12px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 577.52px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.date-of-birth {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--caption-regular, 400 12px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 125.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.gender {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--caption-regular, 400 12px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 183.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.phone-number {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--caption-regular, 400 12px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 241.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.omotolani-idris {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: absolute;
+    left: 184px;
+    top: 67.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+._28-05-1986 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: absolute;
+    left: 184px;
+    top: 125.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.male {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: absolute;
+    left: 184px;
+    top: 183.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+._234-812-787-7971 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: absolute;
+    left: 184px;
+    top: 241.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.omotolaniidris-gmail-com {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: absolute;
+    left: 184px;
+    top: 299.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.employed {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: absolute;
+    left: 184px;
+    top: 460.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.n-230-000-00 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: absolute;
+    left: 184px;
+    top: 518.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mother-s-maiden-name {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: absolute;
+    left: 184px;
+    top: 577.52px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+._12-folashade-kafidipe-street-idi-iroko-idi-iro-lg-lagos-ng-2340012 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-2-medium, 500 14px "Poppins", sans-serif);
+    position: absolute;
+    left: 184px;
+    top: 357.51px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.line-35 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 440px;
+    height: 0px;
+    position: absolute;
+    left: 24px;
+    top: 47.51px;
+}
+
+.line-36 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 440px;
+    height: 0px;
+    position: absolute;
+    left: 24px;
+    top: 105.51px;
+}
+
+.line-37 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 440px;
+    height: 0px;
+    position: absolute;
+    left: 25px;
+    top: 279.51px;
+}
+
+.line-38 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 440px;
+    height: 0px;
+    position: absolute;
+    left: 24px;
+    top: 163.51px;
+}
+
+.line-39 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 440px;
+    height: 0px;
+    position: absolute;
+    left: 22px;
+    top: 221.51px;
+}
+
+.line-40 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 440px;
+    height: 0px;
+    position: absolute;
+    left: 25px;
+    top: 337.51px;
+}
+
+.line-41 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 440px;
+    height: 0px;
+    position: absolute;
+    left: 24px;
+    top: 498.51px;
+}
+
+.line-42 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 440px;
+    height: 0px;
+    position: absolute;
+    left: 22px;
+    top: 440.51px;
+}
+
+.line-43 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 440px;
+    height: 0px;
+    position: absolute;
+    left: 22px;
+    top: 557.52px;
+    transform-origin: 0 0;
+    transform: rotate(-0.132deg) scale(1, 1);
+}
+
+.line-44 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 440px;
+    height: 0px;
+    position: absolute;
+    left: 22px;
+    top: 616.53px;
+    transform-origin: 0 0;
+    transform: rotate(-0.132deg) scale(1, 1);
+}
+
+.personal-information {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

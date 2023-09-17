@@ -1,0 +1,2951 @@
+.savings,
+.savings * {
+    box-sizing: border-box;
+}
+
+.savings {
+    background: var(--white-color, #ffffff);
+    width: 1440px;
+    height: 1991px;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-saving-plans {
+    background: var(--white-color, #ffffff);
+    width: 1440px;
+    height: 1440px;
+    position: absolute;
+    left: calc(50% - 720px);
+    top: 122px;
+    overflow: hidden;
+}
+
+.our-saving-plans2 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-2-extra-bold, 800 48.83px/50px "Poppins", sans-serif);
+    position: absolute;
+    left: 505px;
+    top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flexible-savings {
+    background: var(--secondary-color-1, #fee4cc);
+    padding: 48px 15px 48px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    width: 385px;
+    position: absolute;
+    left: 123px;
+    top: 148px;
+    overflow: hidden;
+}
+
+.savings-pana {
+    flex-shrink: 0;
+    width: 341.11px;
+    height: 300px;
+    position: static;
+}
+
+.background-complete {
+    position: absolute;
+    left: 46.04px;
+    top: 48.07px;
+    overflow: visible;
+}
+
+.background-simple {
+    opacity: 0;
+    position: absolute;
+    left: 27.1px;
+    top: 53.93px;
+    overflow: visible;
+}
+
+.desk {
+    position: absolute;
+    left: 21.94px;
+    top: 347.61px;
+    overflow: visible;
+}
+
+.plants {
+    width: 320.7px;
+    height: 153.11px;
+    position: static;
+}
+
+.vector15 {
+    position: absolute;
+    left: 32.46px;
+    top: 259.96px;
+    overflow: visible;
+}
+
+.group {
+    opacity: 0.30000001192092896;
+    position: absolute;
+    left: 32.46px;
+    top: 259.96px;
+    overflow: visible;
+}
+
+.vector17 {
+    position: absolute;
+    left: 71.39px;
+    top: 225.74px;
+    overflow: visible;
+}
+
+.vector18 {
+    position: absolute;
+    left: 76.57px;
+    top: 231.64px;
+    overflow: visible;
+}
+
+.vector19 {
+    position: absolute;
+    left: 41.48px;
+    top: 194.81px;
+    overflow: visible;
+}
+
+.vector20 {
+    position: absolute;
+    left: 45.79px;
+    top: 201.64px;
+    overflow: visible;
+}
+
+.vector21 {
+    position: absolute;
+    left: 330.93px;
+    top: 303.75px;
+    overflow: visible;
+}
+
+.vector22 {
+    position: absolute;
+    left: 339.95px;
+    top: 325.29px;
+    overflow: visible;
+}
+
+.vector23 {
+    position: absolute;
+    left: 335.34px;
+    top: 329.46px;
+    overflow: visible;
+}
+
+.vector24 {
+    position: absolute;
+    left: 335.3px;
+    top: 310.15px;
+    overflow: visible;
+}
+
+.vector25 {
+    position: absolute;
+    left: 319.8px;
+    top: 324.07px;
+    overflow: visible;
+}
+
+.vector26 {
+    position: absolute;
+    left: 324.97px;
+    top: 328.7px;
+    overflow: visible;
+}
+
+.character {
+    width: 242.43px;
+    height: 299.81px;
+    position: static;
+}
+
+.vector27 {
+    position: absolute;
+    left: 89.09px;
+    top: 149.11px;
+    overflow: visible;
+}
+
+.vector28 {
+    position: absolute;
+    left: 95.52px;
+    top: 212.29px;
+    overflow: visible;
+}
+
+.vector29 {
+    position: absolute;
+    left: 103.62px;
+    top: 194.55px;
+    overflow: visible;
+}
+
+.vector30 {
+    position: absolute;
+    left: 119.36px;
+    top: 158.54px;
+    overflow: visible;
+}
+
+.vector31 {
+    position: absolute;
+    left: 198.88px;
+    top: 156.98px;
+    overflow: visible;
+}
+
+.vector32 {
+    position: absolute;
+    left: 130.47px;
+    top: 172.24px;
+    overflow: visible;
+}
+
+.vector33 {
+    position: absolute;
+    left: 214.13px;
+    top: 179.41px;
+    overflow: visible;
+}
+
+.vector34 {
+    position: absolute;
+    left: 137.63px;
+    top: 200.44px;
+    overflow: visible;
+}
+
+.vector35 {
+    position: absolute;
+    left: 207.21px;
+    top: 195.92px;
+    overflow: visible;
+}
+
+.vector36 {
+    position: absolute;
+    left: 133.65px;
+    top: 227.63px;
+    overflow: visible;
+}
+
+.vector37 {
+    position: absolute;
+    left: 207.67px;
+    top: 219.31px;
+    overflow: visible;
+}
+
+.vector38 {
+    position: absolute;
+    left: 132.48px;
+    top: 246.62px;
+    overflow: visible;
+}
+
+.vector39 {
+    position: absolute;
+    left: 133.16px;
+    top: 274.27px;
+    overflow: visible;
+}
+
+.vector40 {
+    position: absolute;
+    left: 199.92px;
+    top: 269.43px;
+    overflow: visible;
+}
+
+.vector41 {
+    position: absolute;
+    left: 130.65px;
+    top: 299.17px;
+    overflow: visible;
+}
+
+.vector42 {
+    position: absolute;
+    left: 168.41px;
+    top: 303.71px;
+    overflow: visible;
+}
+
+.vector43 {
+    position: absolute;
+    left: 126.45px;
+    top: 328.56px;
+    overflow: visible;
+}
+
+.vector44 {
+    position: absolute;
+    left: 246.67px;
+    top: 178.83px;
+    overflow: visible;
+}
+
+.vector45 {
+    position: absolute;
+    left: 235.37px;
+    top: 168.61px;
+    overflow: visible;
+}
+
+.vector46 {
+    position: absolute;
+    left: 180.57px;
+    top: 163.32px;
+    overflow: visible;
+}
+
+.vector47 {
+    position: absolute;
+    left: 179.28px;
+    top: 207.34px;
+    overflow: visible;
+}
+
+.vector48 {
+    position: absolute;
+    left: 158.58px;
+    top: 266.69px;
+    overflow: visible;
+}
+
+.vector49 {
+    position: absolute;
+    left: 229.32px;
+    top: 160.33px;
+    overflow: visible;
+}
+
+.vector50 {
+    position: absolute;
+    left: 235.52px;
+    top: 201.23px;
+    overflow: visible;
+}
+
+.vector51 {
+    position: absolute;
+    left: 116px;
+    top: 176.3px;
+    overflow: visible;
+}
+
+.vector52 {
+    position: absolute;
+    left: 161.81px;
+    top: 169.05px;
+    overflow: visible;
+}
+
+.vector53 {
+    position: absolute;
+    left: 171.79px;
+    top: 173.67px;
+    overflow: visible;
+}
+
+.vector54 {
+    position: absolute;
+    left: 181.93px;
+    top: 173.81px;
+    overflow: visible;
+}
+
+.vector55 {
+    position: absolute;
+    left: 189.97px;
+    top: 170.27px;
+    overflow: visible;
+}
+
+.vector56 {
+    position: absolute;
+    left: 195.81px;
+    top: 164.34px;
+    overflow: visible;
+}
+
+.vector57 {
+    position: absolute;
+    left: 198.71px;
+    top: 154.47px;
+    overflow: visible;
+}
+
+.vector58 {
+    position: absolute;
+    left: 155.19px;
+    top: 162.51px;
+    overflow: visible;
+}
+
+.vector59 {
+    position: absolute;
+    left: 152.76px;
+    top: 155.22px;
+    overflow: visible;
+}
+
+.vector60 {
+    position: absolute;
+    left: 131.71px;
+    top: 203.3px;
+    overflow: visible;
+}
+
+.vector61 {
+    position: absolute;
+    left: 142.3px;
+    top: 48px;
+    overflow: visible;
+}
+
+.vector62 {
+    position: absolute;
+    left: 152.59px;
+    top: 56.13px;
+    overflow: visible;
+}
+
+.vector63 {
+    position: absolute;
+    left: 175.7px;
+    top: 135.59px;
+    overflow: visible;
+}
+
+.vector64 {
+    position: absolute;
+    left: 200.05px;
+    top: 91.92px;
+    overflow: visible;
+}
+
+.vector65 {
+    position: absolute;
+    left: 197.68px;
+    top: 88.71px;
+    overflow: visible;
+}
+
+.vector66 {
+    position: absolute;
+    left: 174.66px;
+    top: 93.67px;
+    overflow: visible;
+}
+
+.vector67 {
+    position: absolute;
+    left: 172.29px;
+    top: 90.04px;
+    overflow: visible;
+}
+
+.vector68 {
+    position: absolute;
+    left: 189.88px;
+    top: 89.7px;
+    overflow: visible;
+}
+
+.vector69 {
+    position: absolute;
+    left: 183.92px;
+    top: 112.51px;
+    overflow: visible;
+}
+
+.vector70 {
+    position: absolute;
+    left: 169.83px;
+    top: 77.81px;
+    overflow: visible;
+}
+
+.vector71 {
+    position: absolute;
+    left: 197.14px;
+    top: 81.4px;
+    overflow: visible;
+}
+
+.vector72 {
+    position: absolute;
+    left: 143.8px;
+    top: 101.4px;
+    overflow: visible;
+}
+
+.vector73 {
+    position: absolute;
+    left: 146.73px;
+    top: 105.12px;
+    overflow: visible;
+}
+
+.vector74 {
+    position: absolute;
+    left: 150.73px;
+    top: 53.38px;
+    overflow: visible;
+}
+
+.vector75 {
+    position: absolute;
+    left: 161.96px;
+    top: 54px;
+    overflow: visible;
+}
+
+.vector76 {
+    position: absolute;
+    left: 142.48px;
+    top: 67.56px;
+    overflow: visible;
+}
+
+.vector77 {
+    position: absolute;
+    left: 143.29px;
+    top: 75.49px;
+    overflow: visible;
+}
+
+.vector78 {
+    position: absolute;
+    left: 173.22px;
+    top: 102.65px;
+    overflow: visible;
+}
+
+.vector79 {
+    position: absolute;
+    left: 178.15px;
+    top: 101.31px;
+    overflow: visible;
+}
+
+.vector80 {
+    position: absolute;
+    left: 181.44px;
+    top: 100.9px;
+    overflow: visible;
+}
+
+.vector81 {
+    position: absolute;
+    left: 175.83px;
+    top: 105.8px;
+    overflow: visible;
+}
+
+.vector82 {
+    position: absolute;
+    left: 180.28px;
+    top: 104.35px;
+    overflow: visible;
+}
+
+.vector83 {
+    position: absolute;
+    left: 203.72px;
+    top: 100.85px;
+    overflow: visible;
+}
+
+.vector84 {
+    position: absolute;
+    left: 207.11px;
+    top: 100.36px;
+    overflow: visible;
+}
+
+.vector85 {
+    position: absolute;
+    left: 200.84px;
+    top: 101.13px;
+    overflow: visible;
+}
+
+.vector86 {
+    position: absolute;
+    left: 203.29px;
+    top: 104.22px;
+    overflow: visible;
+}
+
+.vector87 {
+    position: absolute;
+    left: 206.36px;
+    top: 103.69px;
+    overflow: visible;
+}
+
+.vector88 {
+    position: absolute;
+    left: 192.77px;
+    top: 219.95px;
+    overflow: visible;
+}
+
+.vector89 {
+    position: absolute;
+    left: 254.59px;
+    top: 252.47px;
+    overflow: visible;
+}
+
+.vector90 {
+    position: absolute;
+    left: 201.8px;
+    top: 239.15px;
+    overflow: visible;
+}
+
+.group2 {
+    opacity: 0.5;
+    position: absolute;
+    left: 236.84px;
+    top: 222.02px;
+    overflow: visible;
+}
+
+.vector92 {
+    position: absolute;
+    left: 236.84px;
+    top: 222px;
+    overflow: visible;
+}
+
+.group3 {
+    opacity: 0.699999988079071;
+    position: absolute;
+    left: 236.84px;
+    top: 222px;
+    overflow: visible;
+}
+
+.vector94 {
+    position: absolute;
+    left: 195.98px;
+    top: 287.22px;
+    overflow: visible;
+}
+
+.group4 {
+    opacity: 0.30000001192092896;
+    position: absolute;
+    left: 195.98px;
+    top: 287.22px;
+    overflow: visible;
+}
+
+.group5 {
+    opacity: 0.30000001192092896;
+    position: absolute;
+    left: 270.68px;
+    top: 267.38px;
+    overflow: visible;
+}
+
+.group6 {
+    opacity: 0.30000001192092896;
+    position: absolute;
+    left: 252.84px;
+    top: 256.55px;
+    overflow: visible;
+}
+
+.group7 {
+    opacity: 0.30000001192092896;
+    position: absolute;
+    left: 197.68px;
+    top: 243.68px;
+    overflow: visible;
+}
+
+.vector99 {
+    position: absolute;
+    left: 193.7px;
+    top: 241.11px;
+    overflow: visible;
+}
+
+.vector100 {
+    position: absolute;
+    left: 236.06px;
+    top: 221.48px;
+    overflow: visible;
+}
+
+.vector101 {
+    position: absolute;
+    left: 253.13px;
+    top: 253.39px;
+    overflow: visible;
+}
+
+.vector102 {
+    position: absolute;
+    left: 194.14px;
+    top: 295.44px;
+    overflow: visible;
+}
+
+.group8 {
+    opacity: 0.20000000298023224;
+    position: absolute;
+    left: 209.45px;
+    top: 306.74px;
+    overflow: visible;
+}
+
+.vector104 {
+    position: absolute;
+    left: 209.26px;
+    top: 306.75px;
+    overflow: visible;
+}
+
+.group9 {
+    opacity: 0.4000000059604645;
+    position: absolute;
+    left: 209.25px;
+    top: 306.75px;
+    overflow: visible;
+}
+
+.group10 {
+    opacity: 0.20000000298023224;
+    position: absolute;
+    left: 198.3px;
+    top: 302.54px;
+    overflow: visible;
+}
+
+.vector107 {
+    position: absolute;
+    left: 198.12px;
+    top: 302.56px;
+    overflow: visible;
+}
+
+.group11 {
+    opacity: 0.4000000059604645;
+    position: absolute;
+    left: 198.12px;
+    top: 302.56px;
+    overflow: visible;
+}
+
+.vector109 {
+    position: absolute;
+    left: 231.71px;
+    top: 282.26px;
+    overflow: visible;
+}
+
+.vector110 {
+    position: absolute;
+    left: 228.74px;
+    top: 281.88px;
+    overflow: visible;
+}
+
+.vector111 {
+    position: absolute;
+    left: 208.01px;
+    top: 275.06px;
+    overflow: visible;
+}
+
+.vector112 {
+    position: absolute;
+    left: 205.41px;
+    top: 274.71px;
+    overflow: visible;
+}
+
+.vector113 {
+    position: absolute;
+    left: 214.56px;
+    top: 289.5px;
+    overflow: visible;
+}
+
+.vector114 {
+    position: absolute;
+    left: 206.4px;
+    top: 276.81px;
+    overflow: visible;
+}
+
+.vector115 {
+    position: absolute;
+    left: 229.74px;
+    top: 284.83px;
+    overflow: visible;
+}
+
+.vector116 {
+    position: absolute;
+    left: 226.2px;
+    top: 320.98px;
+    overflow: visible;
+}
+
+.vector117 {
+    position: absolute;
+    left: 276.19px;
+    top: 304.2px;
+    overflow: visible;
+}
+
+.group12 {
+    opacity: 0.20000000298023224;
+    position: absolute;
+    left: 286.26px;
+    top: 303.03px;
+    overflow: visible;
+}
+
+.group13 {
+    opacity: 0.5;
+    position: absolute;
+    left: 271.54px;
+    top: 221.51px;
+    overflow: visible;
+}
+
+.group14 {
+    opacity: 0.30000001192092896;
+    position: absolute;
+    left: 207.72px;
+    top: 246.79px;
+    overflow: visible;
+}
+
+.vector121 {
+    position: absolute;
+    left: 209.95px;
+    top: 306.2px;
+    overflow: visible;
+}
+
+.vector122 {
+    position: absolute;
+    left: 198.59px;
+    top: 302.01px;
+    overflow: visible;
+}
+
+.vector123 {
+    position: absolute;
+    left: 248.26px;
+    top: 329.6px;
+    overflow: visible;
+}
+
+.vector124 {
+    position: absolute;
+    left: 202.95px;
+    top: 258.95px;
+    overflow: visible;
+}
+
+.vector125 {
+    position: absolute;
+    left: 236.58px;
+    top: 241.8px;
+    overflow: visible;
+}
+
+.vector126 {
+    position: absolute;
+    left: 297.31px;
+    top: 232.61px;
+    overflow: visible;
+}
+
+.vector127 {
+    position: absolute;
+    left: 258.61px;
+    top: 185.87px;
+    overflow: visible;
+}
+
+.vector128 {
+    position: absolute;
+    left: 297.45px;
+    top: 305.67px;
+    overflow: visible;
+}
+
+.vector129 {
+    position: absolute;
+    left: 304.93px;
+    top: 312.1px;
+    overflow: visible;
+}
+
+.vector130 {
+    position: absolute;
+    left: 309.77px;
+    top: 291.85px;
+    overflow: visible;
+}
+
+.vector131 {
+    position: absolute;
+    left: 291.73px;
+    top: 312.76px;
+    overflow: visible;
+}
+
+.vector132 {
+    position: absolute;
+    left: 86.29px;
+    top: 178.42px;
+    overflow: visible;
+}
+
+.vector133 {
+    position: absolute;
+    left: 191.82px;
+    top: 197.36px;
+    overflow: visible;
+}
+
+.vector134 {
+    position: absolute;
+    left: 197.28px;
+    top: 181.87px;
+    overflow: visible;
+}
+
+.vector135 {
+    position: absolute;
+    left: 207.31px;
+    top: 183.36px;
+    overflow: visible;
+}
+
+.vector136 {
+    position: absolute;
+    left: 206.59px;
+    top: 196.36px;
+    overflow: visible;
+}
+
+.vector137 {
+    position: absolute;
+    left: 192.5px;
+    top: 190.48px;
+    overflow: visible;
+}
+
+.vector138 {
+    position: absolute;
+    left: 210.17px;
+    top: 192.66px;
+    overflow: visible;
+}
+
+.vector139 {
+    position: absolute;
+    left: 213.97px;
+    top: 193.97px;
+    overflow: visible;
+}
+
+.vector140 {
+    position: absolute;
+    left: 232.47px;
+    top: 202.97px;
+    overflow: visible;
+}
+
+.vector141 {
+    position: absolute;
+    left: 237.02px;
+    top: 204.75px;
+    overflow: visible;
+}
+
+.vector142 {
+    position: absolute;
+    left: 213.67px;
+    top: 200.92px;
+    overflow: visible;
+}
+
+.vector143 {
+    position: absolute;
+    left: 228.72px;
+    top: 194.1px;
+    overflow: visible;
+}
+
+.vector144 {
+    position: absolute;
+    left: 244.11px;
+    top: 228.25px;
+    overflow: visible;
+}
+
+.vector145 {
+    position: absolute;
+    left: 259.71px;
+    top: 218.77px;
+    overflow: visible;
+}
+
+.vector146 {
+    position: absolute;
+    left: 246.03px;
+    top: 229.35px;
+    overflow: visible;
+}
+
+.vector147 {
+    position: absolute;
+    left: 260.43px;
+    top: 220.51px;
+    overflow: visible;
+}
+
+.vector148 {
+    position: absolute;
+    left: 230.38px;
+    top: 194.52px;
+    overflow: visible;
+}
+
+.vector149 {
+    position: absolute;
+    left: 216.43px;
+    top: 201.89px;
+    overflow: visible;
+}
+
+.vector150 {
+    position: absolute;
+    left: 228.36px;
+    top: 200.91px;
+    overflow: visible;
+}
+
+.vector151 {
+    position: absolute;
+    left: 247.96px;
+    top: 216.83px;
+    overflow: visible;
+}
+
+.vector152 {
+    position: absolute;
+    left: 219.22px;
+    top: 189.88px;
+    overflow: visible;
+}
+
+.vector153 {
+    position: absolute;
+    left: 217.99px;
+    top: 188.15px;
+    overflow: visible;
+}
+
+.vector154 {
+    position: absolute;
+    left: 97.45px;
+    top: 223.39px;
+    overflow: visible;
+}
+
+.flexible-savings2 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.fixed-savings {
+    flex-shrink: 0;
+    width: 300px;
+    height: 48px;
+    position: static;
+}
+
+.flexible-savings3 {
+    color: var(--secondary-color-6, #fc7900);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: absolute;
+    left: 48.5px;
+    top: 0px;
+}
+
+.line-54 {
+    position: absolute;
+    left: 24.5px;
+    top: 36px;
+    overflow: visible;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.our-flexible-savings-plan-is-not-just-a-savings-account-it-s-a-financial-tool-that-adapts-to-your-life-enjoy-the-benefits-of-penalty-free-withdrawals-tiered-interest-rates-and-the-ability-to-set-personalized-savings-goals-all-in-one-comprehensive-package {
+    color: var(--black-color-8, #000000);
+    text-align: justified;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    width: 349px;
+}
+
+.the-power-of-our-flexible-savings-plan-empowers-you-to-take-control-of-your-financial-future-allowing-you-to-save-at-your-own-pace-adjust-contributions-as-needed-and-access-your-funds-when-it-matters-most-all-while-earning-competitive-returns {
+    color: var(--black-color-8, #000000);
+    text-align: justified;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    width: 349px;
+}
+
+.join-a-community-of-savvy-savers-who-have-chosen-our-flexible-savings-plan-as-their-go-to-solution-for-financial-growth-and-security-backed-by-our-commitment-to-transparency-low-fees-and-exceptional-customer-support {
+    color: var(--black-color-8, #000000);
+    text-align: justified;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    width: 349px;
+}
+
+.button {
+    background: var(--secondary-color-6, #fc7900);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 345px;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-1-bold, 700 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fixed-savings2 {
+    background: var(--grey-color-1, #e9e9e9);
+    padding: 48px 16px 48px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    width: 385px;
+    position: absolute;
+    left: calc(50% - 192px);
+    top: 248px;
+    overflow: hidden;
+}
+
+.wallet-bro {
+    flex-shrink: 0;
+    width: 340.23px;
+    height: 300px;
+    position: static;
+}
+
+.background-simple2 {
+    opacity: 0;
+    position: absolute;
+    left: 22.38px;
+    top: 48px;
+    overflow: visible;
+}
+
+.wallet {
+    position: absolute;
+    left: 38.7px;
+    top: 132.63px;
+    overflow: visible;
+}
+
+.card {
+    width: 194.56px;
+    height: 261.26px;
+    position: static;
+}
+
+.group15 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 168.06px;
+    top: 92.88px;
+    overflow: visible;
+}
+
+.vector192 {
+    position: absolute;
+    left: 263.01px;
+    top: 149.64px;
+    overflow: visible;
+}
+
+.vector193 {
+    position: absolute;
+    left: 290.52px;
+    top: 182.44px;
+    overflow: visible;
+}
+
+.vector194 {
+    position: absolute;
+    left: 280.51px;
+    top: 187.26px;
+    overflow: visible;
+}
+
+.vector195 {
+    position: absolute;
+    left: 272.86px;
+    top: 192.4px;
+    overflow: visible;
+}
+
+.vector196 {
+    position: absolute;
+    left: 177.41px;
+    top: 124.93px;
+    transform: translate(3.59px, -35.16px);
+    overflow: visible;
+}
+
+.vector197 {
+    position: absolute;
+    left: 182.51px;
+    top: 87.86px;
+    overflow: visible;
+}
+
+.vector198 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 198.62px;
+    top: 87.86px;
+    overflow: visible;
+}
+
+.vector199 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 182.8px;
+    top: 126.15px;
+    overflow: visible;
+}
+
+.vector200 {
+    position: absolute;
+    left: 224.42px;
+    top: 102.99px;
+    transform: translate(0.8px, -7.45px);
+    overflow: visible;
+}
+
+.vector201 {
+    position: absolute;
+    left: 230.9px;
+    top: 98.83px;
+    overflow: visible;
+}
+
+.vector202 {
+    position: absolute;
+    left: 230.9px;
+    top: 102.09px;
+    overflow: visible;
+}
+
+.vector203 {
+    position: absolute;
+    left: 226.9px;
+    top: 164.71px;
+    overflow: visible;
+}
+
+.vector204 {
+    position: absolute;
+    left: 230.53px;
+    top: 162.39px;
+    overflow: visible;
+}
+
+.vector205 {
+    position: absolute;
+    left: 234.15px;
+    top: 160.07px;
+    overflow: visible;
+}
+
+.vector206 {
+    position: absolute;
+    left: 238.15px;
+    top: 158.16px;
+    overflow: visible;
+}
+
+.vector207 {
+    position: absolute;
+    left: 242.05px;
+    top: 155.66px;
+    overflow: visible;
+}
+
+.vector208 {
+    position: absolute;
+    left: 242.05px;
+    top: 121.46px;
+    overflow: visible;
+}
+
+.vector209 {
+    position: absolute;
+    left: 210.09px;
+    top: 101.7px;
+    transform: translate(0px, -2.15px);
+    overflow: visible;
+}
+
+.vector210 {
+    position: absolute;
+    left: 182.51px;
+    top: 87.86px;
+    overflow: visible;
+}
+
+.vector211 {
+    position: absolute;
+    left: 223.96px;
+    top: 136.98px;
+    overflow: visible;
+}
+
+.vector212 {
+    position: absolute;
+    left: 223.44px;
+    top: 186.37px;
+    overflow: visible;
+}
+
+.vector213 {
+    position: absolute;
+    left: 234.12px;
+    top: 188.87px;
+    overflow: visible;
+}
+
+.vector214 {
+    position: absolute;
+    left: 264.41px;
+    top: 240.57px;
+    overflow: visible;
+}
+
+.vector215 {
+    position: absolute;
+    left: 235.8px;
+    top: 221.15px;
+    overflow: visible;
+}
+
+.vector216 {
+    position: absolute;
+    left: 237.48px;
+    top: 225.51px;
+    overflow: visible;
+}
+
+.vector217 {
+    position: absolute;
+    left: 279.09px;
+    top: 141.4px;
+    overflow: visible;
+}
+
+.vector218 {
+    position: absolute;
+    left: 308.45px;
+    top: 137.11px;
+    overflow: visible;
+}
+
+.vector219 {
+    position: absolute;
+    left: 317.89px;
+    top: 149.66px;
+    overflow: visible;
+}
+
+.vector220 {
+    position: absolute;
+    left: 332.3px;
+    top: 188.78px;
+    overflow: visible;
+}
+
+.vector221 {
+    position: absolute;
+    left: 339.86px;
+    top: 205.34px;
+    overflow: visible;
+}
+
+.vector222 {
+    position: absolute;
+    left: 317.39px;
+    top: 217.13px;
+    overflow: visible;
+}
+
+.vector223 {
+    position: absolute;
+    left: 325.29px;
+    top: 208.43px;
+    overflow: visible;
+}
+
+.vector224 {
+    position: absolute;
+    left: 329.26px;
+    top: 212.53px;
+    overflow: visible;
+}
+
+.fixed-savings3 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.fixed-savings4 {
+    color: var(--grey-color-6, #919191);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: absolute;
+    left: 64.5px;
+    top: 0px;
+}
+
+.line-542 {
+    position: absolute;
+    left: 24.5px;
+    top: 36px;
+    overflow: visible;
+}
+
+.our-fixed-savings-plan-offers-you-the-peace-of-mind-that-comes-with-guaranteed-returns-ensuring-that-your-hard-earned-money-is-not-only-protected-but-also-steadily-increasing-providing-you-with-a-reliable-source-of-financial-security {
+    color: var(--black-color-8, #000000);
+    text-align: justified;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    width: 349px;
+    display: flex;
+    align-items: center;
+    justify-content: undefined;
+}
+
+.our-fixed-savings-plan-not-only-offers-competitive-interest-rates-but-also-the-flexibility-to-easily-access-your-funds-when-needed-making-it-a-reliable-and-adaptable-solution-for-your-short-term-and-long-term-financial-needs {
+    color: var(--black-color-8, #000000);
+    text-align: justified;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    width: 349px;
+    display: flex;
+    align-items: center;
+    justify-content: undefined;
+}
+
+.join-thousands-of-satisfied-customers-who-have-chosen-our-fixed-savings-plan-to-build-a-robust-financial-foundation-as-our-dedicated-team-of-experts-work-diligently-to-maximize-your-returns-and-provide-exceptional-customer-support-every-step-of-the-way {
+    color: var(--black-color-8, #000000);
+    text-align: justified;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    width: 349px;
+    display: flex;
+    align-items: center;
+    justify-content: undefined;
+}
+
+.button3 {
+    background: var(--grey-color-6, #919191);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 345px;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+.target-savings {
+    background: var(--primary-color-2, #aebeff);
+    padding: 48px 17px 48px 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    width: 385px;
+    position: absolute;
+    left: 933px;
+    top: 348px;
+    overflow: hidden;
+}
+
+.savings-cuate {
+    flex-shrink: 0;
+    width: 320px;
+    height: 300px;
+    position: static;
+}
+
+.background-complete2 {
+    position: absolute;
+    left: 32.5px;
+    top: 48px;
+    overflow: visible;
+}
+
+.background-simple3 {
+    opacity: 0;
+    position: absolute;
+    left: 32.57px;
+    top: 100.21px;
+    overflow: visible;
+}
+
+.desk2 {
+    position: absolute;
+    left: 33.7px;
+    top: 317.85px;
+    overflow: visible;
+}
+
+.shadow {
+    position: absolute;
+    left: 48.84px;
+    top: 329.58px;
+    overflow: visible;
+}
+
+.character2 {
+    width: 233.22px;
+    height: 225.76px;
+    position: static;
+}
+
+.vector252 {
+    position: absolute;
+    left: 142.98px;
+    top: 264.2px;
+    overflow: visible;
+}
+
+.vector253 {
+    position: absolute;
+    left: 198.8px;
+    top: 270.87px;
+    overflow: visible;
+}
+
+.vector254 {
+    position: absolute;
+    left: 169.74px;
+    top: 264.28px;
+    overflow: visible;
+}
+
+.vector255 {
+    position: absolute;
+    left: 159.27px;
+    top: 264.32px;
+    overflow: visible;
+}
+
+.vector256 {
+    position: absolute;
+    left: 168.58px;
+    top: 290.71px;
+    overflow: visible;
+}
+
+.vector257 {
+    position: absolute;
+    left: 168px;
+    top: 269.02px;
+    overflow: visible;
+}
+
+.vector258 {
+    position: absolute;
+    left: 213.96px;
+    top: 269.93px;
+    overflow: visible;
+}
+
+.vector259 {
+    position: absolute;
+    left: 78.81px;
+    top: 161.35px;
+    overflow: visible;
+}
+
+.vector260 {
+    position: absolute;
+    left: 109.98px;
+    top: 160.58px;
+    overflow: visible;
+}
+
+.vector261 {
+    position: absolute;
+    left: 113.93px;
+    top: 180.91px;
+    overflow: visible;
+}
+
+.vector262 {
+    position: absolute;
+    left: 119.84px;
+    top: 190.19px;
+    overflow: visible;
+}
+
+.vector263 {
+    position: absolute;
+    left: 137.01px;
+    top: 161.32px;
+    overflow: visible;
+}
+
+.vector264 {
+    position: absolute;
+    left: 151.39px;
+    top: 158.38px;
+    overflow: visible;
+}
+
+.vector265 {
+    position: absolute;
+    left: 199.09px;
+    top: 159.95px;
+    overflow: visible;
+}
+
+.vector266 {
+    position: absolute;
+    left: 151.53px;
+    top: 158.65px;
+    overflow: visible;
+}
+
+.vector267 {
+    position: absolute;
+    left: 196.93px;
+    top: 160.82px;
+    overflow: visible;
+}
+
+.vector268 {
+    position: absolute;
+    left: 194.88px;
+    top: 159.54px;
+    overflow: visible;
+}
+
+.vector269 {
+    position: absolute;
+    left: 220.23px;
+    top: 171.93px;
+    overflow: visible;
+}
+
+.vector270 {
+    position: absolute;
+    left: 235.2px;
+    top: 180.29px;
+    overflow: visible;
+}
+
+.vector271 {
+    position: absolute;
+    left: 206.03px;
+    top: 177.62px;
+    overflow: visible;
+}
+
+.vector272 {
+    position: absolute;
+    left: 171.26px;
+    top: 141.03px;
+    overflow: visible;
+}
+
+.vector273 {
+    position: absolute;
+    left: 171.27px;
+    top: 141.11px;
+    overflow: visible;
+}
+
+.vector274 {
+    position: absolute;
+    left: 155.69px;
+    top: 105.56px;
+    overflow: visible;
+}
+
+.vector275 {
+    position: absolute;
+    left: 176.75px;
+    top: 133.81px;
+    overflow: visible;
+}
+
+.vector276 {
+    position: absolute;
+    left: 176.75px;
+    top: 132.03px;
+    overflow: visible;
+}
+
+.vector277 {
+    position: absolute;
+    left: 164.71px;
+    top: 134.91px;
+    overflow: visible;
+}
+
+.vector278 {
+    position: absolute;
+    left: 162.29px;
+    top: 133.51px;
+    overflow: visible;
+}
+
+.vector279 {
+    position: absolute;
+    left: 175.24px;
+    top: 126.26px;
+    overflow: visible;
+}
+
+.vector280 {
+    position: absolute;
+    left: 159.94px;
+    top: 127.56px;
+    overflow: visible;
+}
+
+.vector281 {
+    position: absolute;
+    left: 177.09px;
+    top: 147.52px;
+    overflow: visible;
+}
+
+.vector282 {
+    position: absolute;
+    left: 167.07px;
+    top: 127.25px;
+    overflow: visible;
+}
+
+.vector283 {
+    position: absolute;
+    left: 172.83px;
+    top: 143.09px;
+    overflow: visible;
+}
+
+.vector284 {
+    position: absolute;
+    left: 175.96px;
+    top: 144.51px;
+    overflow: visible;
+}
+
+.vector285 {
+    position: absolute;
+    left: 145.93px;
+    top: 100.99px;
+    overflow: visible;
+}
+
+.vector286 {
+    position: absolute;
+    left: 174.7px;
+    top: 112.9px;
+    overflow: visible;
+}
+
+.vector287 {
+    position: absolute;
+    left: 187.93px;
+    top: 104.33px;
+    overflow: visible;
+}
+
+.vector288 {
+    position: absolute;
+    left: 145.89px;
+    top: 102.84px;
+    overflow: visible;
+}
+
+.vector289 {
+    position: absolute;
+    left: 193.57px;
+    top: 126.04px;
+    overflow: visible;
+}
+
+.vector290 {
+    position: absolute;
+    left: 195.99px;
+    top: 129.37px;
+    overflow: visible;
+}
+
+.vector291 {
+    position: absolute;
+    left: 238.01px;
+    top: 250.22px;
+    overflow: visible;
+}
+
+.vector292 {
+    position: absolute;
+    left: 250.46px;
+    top: 282.38px;
+    overflow: visible;
+}
+
+.vector293 {
+    position: absolute;
+    left: 261.12px;
+    top: 283.38px;
+    overflow: visible;
+}
+
+.vector294 {
+    position: absolute;
+    left: 228.41px;
+    top: 250.22px;
+    overflow: visible;
+}
+
+.vector295 {
+    position: absolute;
+    left: 252.03px;
+    top: 203.53px;
+    overflow: visible;
+}
+
+.vector296 {
+    position: absolute;
+    left: 263.6px;
+    top: 212.7px;
+    overflow: visible;
+}
+
+.vector297 {
+    position: absolute;
+    left: 79.72px;
+    top: 205.78px;
+    overflow: visible;
+}
+
+.vector298 {
+    position: absolute;
+    left: 105.74px;
+    top: 189.8px;
+    overflow: visible;
+}
+
+.vector299 {
+    position: absolute;
+    left: 160.91px;
+    top: 213.92px;
+    overflow: visible;
+}
+
+.vector300 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 160.91px;
+    top: 213.92px;
+    overflow: visible;
+}
+
+.vector301 {
+    position: absolute;
+    left: 159.99px;
+    top: 213.57px;
+    overflow: visible;
+}
+
+.vector302 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 161.96px;
+    top: 215.74px;
+    overflow: visible;
+}
+
+.group16 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 165.79px;
+    top: 217.83px;
+    overflow: visible;
+}
+
+.vector304 {
+    position: absolute;
+    left: 136.83px;
+    top: 187.99px;
+    overflow: visible;
+}
+
+.vector305 {
+    position: absolute;
+    left: 179.52px;
+    top: 200.15px;
+    overflow: visible;
+}
+
+.vector306 {
+    position: absolute;
+    left: 136.83px;
+    top: 187.99px;
+    overflow: visible;
+}
+
+.vector307 {
+    position: absolute;
+    left: 150.8px;
+    top: 188.64px;
+    overflow: visible;
+}
+
+.vector308 {
+    position: absolute;
+    left: 131.05px;
+    top: 180.9px;
+    overflow: visible;
+}
+
+.vector309 {
+    position: absolute;
+    left: 148.98px;
+    top: 189.73px;
+    overflow: visible;
+}
+
+.vector310 {
+    position: absolute;
+    left: 177.29px;
+    top: 216.47px;
+    overflow: visible;
+}
+
+.vector311 {
+    position: absolute;
+    left: 133.38px;
+    top: 201.26px;
+    overflow: visible;
+}
+
+.vector312 {
+    position: absolute;
+    left: 81.81px;
+    top: 197.02px;
+    overflow: visible;
+}
+
+.vector313 {
+    position: absolute;
+    left: 206.79px;
+    top: 325.91px;
+    overflow: visible;
+}
+
+.plant {
+    position: absolute;
+    left: 34.35px;
+    top: 227.82px;
+    overflow: visible;
+}
+
+.piggy-bank {
+    position: absolute;
+    left: 106.55px;
+    top: 229.5px;
+    overflow: visible;
+}
+
+.coins {
+    width: 215px;
+    height: 32.49px;
+    position: static;
+}
+
+.vector352 {
+    position: absolute;
+    left: 272.89px;
+    top: 332.05px;
+    overflow: visible;
+}
+
+.group17 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 273.49px;
+    top: 332.48px;
+    overflow: visible;
+}
+
+.vector369 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 272.88px;
+    top: 332.05px;
+    overflow: visible;
+}
+
+.vector370 {
+    position: absolute;
+    left: 270.9px;
+    top: 327.38px;
+    overflow: visible;
+}
+
+.group18 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 271.5px;
+    top: 327.81px;
+    overflow: visible;
+}
+
+.vector387 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 270.9px;
+    top: 327.38px;
+    overflow: visible;
+}
+
+.vector388 {
+    position: absolute;
+    left: 272.73px;
+    top: 322.75px;
+    overflow: visible;
+}
+
+.group19 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 273.34px;
+    top: 323.18px;
+    overflow: visible;
+}
+
+.vector405 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 272.73px;
+    top: 322.75px;
+    overflow: visible;
+}
+
+.vector406 {
+    position: absolute;
+    left: 98.69px;
+    top: 329.24px;
+    overflow: visible;
+}
+
+.group20 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 99.3px;
+    top: 329.64px;
+    overflow: visible;
+}
+
+.vector423 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 98.69px;
+    top: 329.24px;
+    overflow: visible;
+}
+
+.vector424 {
+    position: absolute;
+    left: 97.07px;
+    top: 324.57px;
+    overflow: visible;
+}
+
+.group21 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 97.67px;
+    top: 325px;
+    overflow: visible;
+}
+
+.vector441 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 97.07px;
+    top: 324.57px;
+    overflow: visible;
+}
+
+.vector442 {
+    position: absolute;
+    left: 100.75px;
+    top: 315.27px;
+    overflow: visible;
+}
+
+.group22 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 101.35px;
+    top: 315.7px;
+    overflow: visible;
+}
+
+.vector459 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 100.75px;
+    top: 315.27px;
+    overflow: visible;
+}
+
+.vector460 {
+    position: absolute;
+    left: 100.15px;
+    top: 310.61px;
+    overflow: visible;
+}
+
+.group23 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 100.75px;
+    top: 311.04px;
+    overflow: visible;
+}
+
+.vector477 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 100.15px;
+    top: 310.61px;
+    overflow: visible;
+}
+
+.vector478 {
+    position: absolute;
+    left: 98.69px;
+    top: 305.94px;
+    overflow: visible;
+}
+
+.group24 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 99.3px;
+    top: 306.37px;
+    overflow: visible;
+}
+
+.vector495 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 98.69px;
+    top: 305.94px;
+    overflow: visible;
+}
+
+.vector496 {
+    position: absolute;
+    left: 98.69px;
+    top: 319.94px;
+    overflow: visible;
+}
+
+.group25 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 99.3px;
+    top: 320.37px;
+    overflow: visible;
+}
+
+.vector513 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 98.69px;
+    top: 319.94px;
+    overflow: visible;
+}
+
+.vector514 {
+    position: absolute;
+    left: 82.64px;
+    top: 317.41px;
+    overflow: visible;
+}
+
+.vector515 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 82.64px;
+    top: 317.41px;
+    overflow: visible;
+}
+
+.vector516 {
+    position: absolute;
+    left: 81.71px;
+    top: 317.19px;
+    overflow: visible;
+}
+
+.vector517 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 83.67px;
+    top: 319.12px;
+    overflow: visible;
+}
+
+.group26 {
+    opacity: 0.10000000149011612;
+    position: absolute;
+    left: 87.73px;
+    top: 321.26px;
+    overflow: visible;
+}
+
+.target-savings2 {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.target-savings3 {
+    flex-shrink: 0;
+    width: 300px;
+    height: 48px;
+    position: static;
+}
+
+.target-savings4 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: absolute;
+    left: 53.5px;
+    top: 0px;
+}
+
+.line-543 {
+    position: absolute;
+    left: 24.5px;
+    top: 36px;
+    overflow: visible;
+}
+
+.our-target-savings-plan-is-designed-to-simplify-your-financial-journey-allowing-you-to-set-clear-goals-track-your-progress-and-enjoy-the-satisfaction-of-achieving-what-matters-most-to-you-whether-it-s-buying-a-home-starting-a-business-or-traveling-the-world {
+    color: var(--black-color-8, #000000);
+    text-align: justified;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    width: 349px;
+    display: flex;
+    align-items: center;
+    justify-content: undefined;
+}
+
+.with-our-target-savings-plan-you-can-create-a-roadmap-to-your-financial-aspirations-benefiting-from-features-like-automated-contributions-expert-guidance-and-the-flexibility-to-adjust-your-plan-as-your-life-evolves {
+    color: var(--black-color-8, #000000);
+    text-align: justified;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    width: 349px;
+    display: flex;
+    align-items: center;
+    justify-content: undefined;
+}
+
+.experience-the-convenience-of-goal-based-saving-where-you-can-easily-allocate-funds-to-different-objectives-ensuring-that-you-re-well-prepared-for-life-s-major-milestones-while-earning-attractive-returns-on-your-savings {
+    color: var(--black-color-8, #000000);
+    text-align: justified;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    width: 349px;
+    display: flex;
+    align-items: center;
+    justify-content: undefined;
+}
+
+.button4 {
+    background: var(--primary-color-6, #0c3cff);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 345px;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer {
+    background: var(--primary-color-7, #0a32d4);
+    padding: 48px 121px 48px 121px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: calc(50% - 720px);
+    top: 1560px;
+    overflow: hidden;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: row;
+    gap: 156px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    width: 1198px;
+    position: relative;
+}
+
+.connect-with-us {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.q-pay-logo {
+    flex-shrink: 0;
+    width: 149px;
+    height: 52px;
+    position: relative;
+}
+
+.group27 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.vector521 {
+    position: absolute;
+    left: 59.31px;
+    top: 7.76px;
+    overflow: visible;
+}
+
+.connect-with-us2 {
+    color: var(--white-color, #ffffff);
+    text-align: center;
+    font: var(--p-1-bold, 700 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.mdi-facebook {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.ri-instagram-fill {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.ri-twitter-x-line {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.mdi-linkedin {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.footer-context {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-3387 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.head-office {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+._105-herbart-macaulay-way-yaba-lagos-nigeria {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.support-qpay-com {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+._234-704-500-6000 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-3250 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.company {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about-us {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.meet-the-team {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact-us {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-3251 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.savings2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flexible-savings4 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fixed-savings5 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.target-savings5 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-3252 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.other-services {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.account {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cards {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.business-to-business {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.skills-learning {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-3253 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.resources {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.live-chat {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.faq {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.terms-and-condition {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.copyright-2023-quantum-payment-solution-all-rights-reserved {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-2-regular, 400 14px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-bar {
+    width: 1440px;
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+}
+
+.nav-bar2 {
+    background: var(--white-color, #ffffff);
+    width: 1440px;
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.qpay-logo {
+    position: absolute;
+    left: 120px;
+    top: 34px;
+    overflow: visible;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 524px;
+    top: 44px;
+}
+
+.home2 {
+    color: var(--black-color-11, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home3 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 615px;
+    top: 44px;
+}
+
+.savings3 {
+    color: var(--black-color-11, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.line-1 {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.about-us2 {
+    width: 73px;
+    height: 32px;
+    position: absolute;
+    left: 722px;
+    top: 44px;
+}
+
+.about-us3 {
+    color: var(--black-color-11, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1104px;
+    top: 36px;
+}
+
+.button5 {
+    background: var(--primary-color-5, #355dff);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 96px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame-3190 {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 100px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button6 {
+    color: var(--primary-color-6, #0c3cff);
+    text-align: left;
+    font: var(--p-1-bold, 700 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.other-services2 {
+    width: 118px;
+    height: 32px;
+    position: absolute;
+    left: 837px;
+    top: 44px;
+}
+
+.other-services3 {
+    color: var(--black-color-11, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.support {
+    width: 65px;
+    height: 32px;
+    position: absolute;
+    left: 997px;
+    top: 44px;
+}
+
+.support2 {
+    color: var(--black-color-11, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
