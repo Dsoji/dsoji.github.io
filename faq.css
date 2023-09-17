@@ -1,0 +1,767 @@
+.faq,
+.faq * {
+    box-sizing: border-box;
+}
+
+.faq {
+    background: #ffffff;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+
+.side-bar {
+    width: 300px;
+    height: 1024px;
+    position: absolute;
+    left: 17875px;
+    top: -4640px;
+}
+
+.side-bar-rectangle {
+    background: var(--primary-color-6, #0c3cff);
+    width: 300px;
+    height: 1024px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    width: 200px;
+    height: 66px;
+    position: absolute;
+    left: 51px;
+    top: 40px;
+}
+
+.group {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.vector3 {
+    position: absolute;
+    left: 79.6px;
+    top: 9.43px;
+    overflow: visible;
+}
+
+.side-bar-context {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 168px;
+}
+
+.my-dashboard {
+    padding: 4px 57px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-squares-2-x-2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.my-dashboard2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.my-profile {
+    padding: 4px 96px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-user {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.my-profile2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.my-transactions {
+    padding: 4px 40px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-bars-3-bottom-left {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.my-transactions2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.create-saving-goals {
+    padding: 4px 10px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-inbox-arrow-down {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.create-saving-goals2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.my-goals {
+    padding: 4px 101px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-adjustments-horizontal {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.my-goals2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.add-money {
+    padding: 4px 84px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-plus-circle {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.add-money2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.withdraw {
+    padding: 4px 95px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-rectangle-stack {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.withdraw2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.settings {
+    padding: 4px 109px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-wrench-screwdriver {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.settings2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.faq2 {
+    padding: 4px 115px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-chart-bar {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.rate-us {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.support {
+    background: var(--primary-color-7, #0a32d4);
+    padding: 10px 10px 10px 48.5px;
+    display: flex;
+    flex-direction: row;
+    gap: 20.5px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-user-group {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.support2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroicons-solid-chevron-right {
+    flex-shrink: 0;
+    position: absolute;
+    right: 16px;
+    top: 14px;
+    overflow: visible;
+}
+
+.log-out {
+    padding: 4px 115px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-arrow-right-on-rectangle {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.log-out2 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.support-faq {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: absolute;
+    left: 323px;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1010px;
+    top: 60px;
+}
+
+.search {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    padding: 4px 7px 4px 7px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.search-1 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.alarm {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.dashboard-icon {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.sign-out-icon {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.faq3 {
+    background: var(--grey-color-1, #e9e9e9);
+    border-radius: 12px;
+    padding: 60px 24px 60px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 323px;
+    top: 180px;
+    overflow: hidden;
+}
+
+.faq4 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.what-is-q-pay {
+    background: var(--white-color, #ffffff);
+    padding: 16px 24px 16px 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 792px;
+    position: relative;
+    overflow: hidden;
+}
+
+.what-is-q-pay2 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroicons-solid-plus {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.how-secured-is-the-platform {
+    background: var(--white-color, #ffffff);
+    padding: 16px 24px 16px 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 792px;
+    position: relative;
+    overflow: hidden;
+}
+
+.how-secured-is-the-platform2 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroicons-solid-plus2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.how-do-i-start-saving {
+    background: var(--white-color, #ffffff);
+    padding: 16px 24px 16px 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 792px;
+    position: relative;
+    overflow: hidden;
+}
+
+.how-do-i-start-saving2 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroicons-solid-plus3 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.can-i-withdraw-at-anytime {
+    background: var(--white-color, #ffffff);
+    padding: 16px 24px 16px 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 792px;
+    position: relative;
+    overflow: hidden;
+}
+
+.can-i-withdraw-at-anytime2 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroicons-solid-plus4 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.can-i-withdraw-my-money-before-my-due-date-in-case-of-an-emergency {
+    background: var(--white-color, #ffffff);
+    padding: 16px 24px 16px 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 792px;
+    position: relative;
+    overflow: hidden;
+}
+
+.can-i-withdraw-my-money-before-my-due-date-in-case-of-an-emergency2 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroicons-solid-plus5 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.can-i-use-q-pay-outside-nigeria {
+    background: var(--white-color, #ffffff);
+    padding: 16px 24px 16px 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 792px;
+    position: relative;
+    overflow: hidden;
+}
+
+.can-i-use-q-pay-outside-nigeria2 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroicons-solid-plus6 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.side-bar2 {
+    width: 300px;
+    height: 1024px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.group2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.vector9 {
+    position: absolute;
+    left: 79.6px;
+    top: 9.43px;
+    overflow: visible;
+}
+
+.heroicons-solid-squares-2-x-22 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.heroicons-solid-user2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.heroicons-solid-bars-3-bottom-left2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.heroicons-solid-inbox-arrow-down2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.heroicons-solid-plus-circle2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.heroicons-solid-rectangle-stack2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.heroicons-solid-wrench-screwdriver2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.support-dp {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.support-icons {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.support3 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroicons-solid {
+    flex-shrink: 0;
+    position: absolute;
+    right: 24px;
+    top: 14px;
+    overflow: visible;
+}
+
+.heroicons-solid-arrow-right-on-rectangle2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}

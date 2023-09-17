@@ -1,0 +1,680 @@
+.support-contact-us,
+.support-contact-us * {
+    box-sizing: border-box;
+}
+
+.support-contact-us {
+    background: var(--white-color, #ffffff);
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+
+.side-bar {
+    width: 300px;
+    height: 1024px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.side-bar-rectangle {
+    background: var(--primary-color-6, #0c3cff);
+    width: 300px;
+    height: 1024px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    width: 200px;
+    height: 66px;
+    position: absolute;
+    left: 51px;
+    top: 40px;
+}
+
+.group {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.vector3 {
+    position: absolute;
+    left: 79.6px;
+    top: 9.43px;
+    overflow: visible;
+}
+
+.side-bar-context {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 168px;
+}
+
+.my-dashboard {
+    padding: 4px 57px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-squares-2-x-2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.my-dashboard2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.my-profile {
+    padding: 4px 96px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-user {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.my-profile2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.my-transactions {
+    padding: 4px 40px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-bars-3-bottom-left {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.my-transactions2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.create-saving-goals {
+    padding: 4px 10px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-inbox-arrow-down {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.create-saving-goals2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.add-money {
+    padding: 4px 84px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-plus-circle {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.add-money2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.withdraw {
+    padding: 4px 95px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-rectangle-stack {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.withdraw2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.settings {
+    padding: 4px 109px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-wrench-screwdriver {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.settings2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.support-dp {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.support {
+    background: var(--primary-color-7, #0a32d4);
+    padding: 10px 10px 10px 48.5px;
+    display: flex;
+    flex-direction: row;
+    gap: 20.5px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.support-icons {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.support2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-bold, 700 16px/32px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.heroicons-solid {
+    flex-shrink: 0;
+    position: absolute;
+    right: 24px;
+    top: 14px;
+    overflow: visible;
+}
+
+.log-out {
+    padding: 4px 115px 4px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroicons-solid-arrow-right-on-rectangle {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.log-out2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.support-contact-us2 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-3-bold, 700 31.25px/32px "Poppins", sans-serif);
+    position: absolute;
+    left: 323px;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 1010px;
+    top: 60px;
+}
+
+.search {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    padding: 4px 7px 4px 7px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.search-1 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.alarm {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.dashboard-icon {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.sign-out-icon {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.support3 {
+    background: var(--grey-color-1, #e9e9e9);
+    border-radius: 12px;
+    width: 692px;
+    height: 700px;
+    position: absolute;
+    left: 323px;
+    top: 180px;
+    overflow: hidden;
+}
+
+.line-34 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 600px;
+    height: 0px;
+    position: absolute;
+    left: 24px;
+    top: 62px;
+}
+
+.line-35 {
+    border-style: solid;
+    border-color: var(--white-color, #ffffff);
+    border-width: 1px 0 0 0;
+    width: 600px;
+    height: 0px;
+    position: absolute;
+    left: 24px;
+    top: 597px;
+}
+
+.email-us-your-enquiries {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.call-us-today {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--h-5-semi-bold, 600 16px "Poppins", sans-serif);
+    position: absolute;
+    left: 24px;
+    top: 549px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.email-us-input-field {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 614px;
+    position: absolute;
+    left: 39px;
+    top: 86px;
+}
+
+.input-field-states {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.first-name {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-3192 {
+    background: var(--white-color, #ffffff);
+    border-radius: 12px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 300px;
+    height: 44px;
+    position: relative;
+}
+
+.place-holder {
+    color: var(--grey-color-1, #e9e9e9);
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input-field-states2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 612px;
+    height: 207px;
+    position: relative;
+}
+
+.input-field2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+}
+
+.frame-31922 {
+    background: var(--white-color, #ffffff);
+    border-radius: 12px;
+    border-style: solid;
+    border-color: var(--primary-color-6, #0c3cff);
+    border-width: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+}
+
+.place-holder2 {
+    text-align: left;
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.place-holder-2-span {
+    color: var(--white-color, #ffffff);
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+}
+
+.place-holder-2-span2 {
+    color: var(--grey-color-3, #c8c8c8);
+    font: var(--p-1-medium, 500 16px "Poppins", sans-serif);
+}
+
+.button {
+    background: var(--primary-color-5, #355dff);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 612px;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button2 {
+    color: var(--white-color, #ffffff);
+    text-align: left;
+    font: var(--p-1-bold, 700 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-3322 {
+    display: flex;
+    flex-direction: row;
+    gap: 118px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 39px;
+    top: 621px;
+}
+
+.general-information {
+    color: var(--black-color-11, #000000);
+    text-align: left;
+    font: var(--caption-regular, 400 12px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+._234-814-276-5581 {
+    color: var(--black-color-8, #000000);
+    text-align: left;
+    font: var(--p-1-bold, 700 16px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-3323 {
+    display: flex;
+    flex-direction: row;
+    gap: 88px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 39px;
+    top: 654px;
+}
+
+.saving-goals-information {
+    color: var(--black-color-11, #000000);
+    text-align: left;
+    font: var(--caption-regular, 400 12px "Poppins", sans-serif);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
